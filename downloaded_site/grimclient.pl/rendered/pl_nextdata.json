@@ -1,0 +1,2498 @@
+{
+  "props": {
+    "pageProps": {
+      "_nextI18Next": {
+        "initialI18nStore": {
+          "pl": {
+            "index": {
+              "meta": {
+                "title": "Strona główna"
+              },
+              "hero": {
+                "version": "Wersja 5.0",
+                "title": "Uwolnij <1>pełny<3/></1> potencjał",
+                "subtitle": "Swojej Minecraftowej przygody z Grim Client",
+                "button": "Rozpocznij teraz"
+              },
+              "sections": {
+                "undetectable": {
+                  "title": "Pozostań nieuchwytny!",
+                  "description": "Grim Client, oprócz zapewniania funkcji służących rozrywce, oferuje również opcje pozwalające omijać kontrolę administracji. Dzięki Self Destruct możesz unikać wykrycia przez narzędzia identyfikacji oszustw lub manipulacji w grze."
+                },
+                "interface": {
+                  "title": "Poznaj najnowszą aktualizację",
+                  "subtitle": "55+ nowości!"
+                },
+                "reviews": {
+                  "title": "Zaufało nam duże grono graczy!",
+                  "subtitle": "ponad 13500 klientów"
+                },
+                "configs": {
+                  "title": "CHMURA",
+                  "subtitle": "Konfiguracje użytkowników dostępne bez pobierania czegokolwiek."
+                },
+                "pricing": {
+                  "title": "Cennik",
+                  "subtitle": "Przystępne cenowo, elastyczne plany dla wszystkich użytkowników",
+                  "bestseller": "Najpopularniejszy",
+                  "buy_button": "Kup Teraz"
+                },
+                "faq": {
+                  "title": "Najczęstsze pytania",
+                  "subtitle": "Odpowiedzi na najczęściej zadawane pytania."
+                },
+                "cta": {
+                  "title": "Chcesz zwiększyć swoje doświadczenia?",
+                  "subtitle": "Wybierz plan, który Ci odpowiada.",
+                  "purchase_button": "Kup teraz"
+                }
+              }
+            },
+            "common": {
+              "date_locale": "pl-PL",
+              "toast": {
+                "error_title": "Błąd"
+              },
+              "timer": {
+                "days": "Dni",
+                "hours": "Godz",
+                "minutes": "Min",
+                "seconds": "Sek"
+              },
+              "cookie_info": {
+                "title": "Informacje o ciasteczkach",
+                "content": "Dbamy o Twoje dane i używamy plików cookie wyłącznie w celu zapewnienia funkcjonalności i komfortu korzystania z serwisu. Używając tej witryny akceptujesz naszą <2>politykę prywatności</2>.",
+                "accept_button": "Zgadzam się"
+              },
+              "navbar": {
+                "logo_name": "GrimClient.eu",
+                "navigation_links": {
+                  "home": "Strona główna",
+                  "purchase": "Zakup",
+                  "showcase": "Funkcje",
+                  "faq": "FAQ"
+                },
+                "account": {
+                  "logged_as": "Zalogowano jako",
+                  "links": {
+                    "dashboard": "Moje licencje",
+                    "settings": "Ustawienia",
+                    "faq": "FAQ",
+                    "billing": "Historia płatności",
+                    "support": "Wsparcie",
+                    "logout": "Wyloguj się"
+                  }
+                },
+                "login_link": "Zaloguj się"
+              },
+              "footer": {
+                "logo_name": "GrimClient.eu",
+                "system_status": "Wszystkie systemy sprawne",
+                "sitemap": {
+                  "title": "Mapa strony",
+                  "links": {
+                    "index": "Strona główna",
+                    "purchase": "Zakup",
+                    "showcase": "Funkcje",
+                    "faq": "Najczęstsze pytania"
+                  }
+                },
+                "social_media": {
+                  "title": "Społeczność",
+                  "links": {
+                    "discord": {
+                      "name": "Discord",
+                      "href": "https://discord.gg/grimclient"
+                    },
+                    "facebook": {
+                      "name": "",
+                      "href": ""
+                    },
+                    "youtube": {
+                      "name": "YouTube",
+                      "href": "https://www.youtube.com/@grim.client/featured"
+                    }
+                  }
+                },
+                "contact": {
+                  "title": "Kontakt",
+                  "links": {
+                    "contact": "contact@grimclient.pl",
+                    "terms": "Regulamin",
+                    "privacy": "Polityka prywatności"
+                  }
+                },
+                "copyright": {
+                  "title": "© GrimClient.eu | All rights reserved.",
+                  "description": "Grimclient nie jest powiązany z Mojang AB, działalność komercyjna firmy jest zgodna z polityką Mojang AB."
+                }
+              },
+              "dashboard_navigation": {
+                "title": "Grim Client",
+                "links": {
+                  "home": "Moje licencje",
+                  "billing": "Historia płatności",
+                  "settings": "Ustawienia",
+                  "faq": "FAQ (Poradnik)",
+                  "support": "Wsparcie"
+                }
+              },
+              "ban_modal": {
+                "title": "Konto zawieszone",
+                "description": "Twoje konto zostało zbanowane. Jeśli uważasz, że to błąd, skontaktuj się z nami.",
+                "reason_label": "Powód",
+                "no_reason": "Nie podano powodu."
+              }
+            },
+            "licenses": {
+              "buy_modal": {
+                "title": "Formularz zakupu",
+                "hwid_notice": "Uwaga, zmiana HWID podlega dodatkowej opłacie!",
+                "form": {
+                  "input": {
+                    "email": {
+                      "label": "E-mail",
+                      "placeholder": ""
+                    },
+                    "hwid_changes": {
+                      "label": "Ilość zmian",
+                      "placeholder": ""
+                    },
+                    "discount": {
+                      "label": "Kod rabatowy",
+                      "placeholder": ""
+                    },
+                    "referral": {
+                      "label": "Kod twórcy",
+                      "placeholder": ""
+                    }
+                  },
+                  "payments": "Wybierz metodę płatności",
+                  "payment_method": {
+                    "cashbill": "Przelew / BLIK / PaySafeCard",
+                    "stripe": "Stripe"
+                  },
+                  "statements": "Oświadczenia",
+                  "terms_checkbox": "Akceptuję <2>regulamin</2> oraz <6>politykę prywatności</6>.",
+                  "data_processing_checkbox": "Wyrażam zgodę na natychmiastowe rozpoczęcie świadczenia usługi cyfrowej i przyjmuję do wiadomości, że tracę prawo do odstąpienia od umowy.",
+                  "submit_button": "Zamawiam i płacę"
+                }
+              },
+              "order_response": {
+                "validation": {
+                  "no_service": "Nie wybrano usługi.",
+                  "no_license": "Nie wybrano licencji.",
+                  "discount_not_allowed": "Kod promocyjny nie może być użyty przy tej płatności.",
+                  "referral_not_allowed": "Kod polecający nie może być użyty przy tej płatności.",
+                  "invalid_hwid": "HWID jest nieprawidłowy.",
+                  "no_payment_method": "Nie wybrano metody płatności."
+                },
+                "code": {
+                  "no_data": "Dane nie zostały przesłane.",
+                  "not_logged_in": "Nie zalogowano.",
+                  "invalid_payment_method": "Wystąpił błąd podczas generowania transakcji.",
+                  "missing_order_data": "Brak danych zamówienia, spróbuj ponownie.",
+                  "missing_user_data": "Brak danych użytkownika. Spróbuj ponownie.",
+                  "missing_service": "Brak wybranej usługi. Spróbuj ponownie.",
+                  "missing_license": "Brak wybranej licencji. Spróbuj ponownie.",
+                  "missing_hwid": "Brak HWID. Spróbuj ponownie.",
+                  "missing_price": "Wystąpił błąd, odśwież stronę i spróbuj ponownie.",
+                  "user_not_found": "Użytkownik nie istnieje, spróbuj ponownie.",
+                  "service_unavailable": "Wybrana usługa jest niedostępna, spróbuj ponownie.",
+                  "license_not_found": "Nie znaleziono licencji.",
+                  "invalid_hwid": "Nieprawidłowy HWID.",
+                  "too_many_hwids": "Przekroczono maksymalną liczbę HWID dla tej licencji.",
+                  "invalid_order": "Wystąpił błąd, to zamówienie nie może zostać przyjęte.",
+                  "discount_not_allowed": "Kod promocyjny nie może być użyty przy tej płatności.",
+                  "price_mismatch": "Kwota nie zgadza się z usługą, odśwież stronę i spróbuj ponownie.",
+                  "discount_error": "Wystąpił błąd podczas realizacji kuponu.",
+                  "unknown_payment_error": "Wystąpił błąd podczas realizacji zamówienia.",
+                  "redirecting_to_payment": "Przekierowywanie do płatności..",
+                  "hwid_already_set": "Wybrane HWID jest już ustawione.",
+                  "hwid_change_error": "Wystąpił błąd podczas zmiany HWID.",
+                  "hwid_changed": "HWID zostało pomyślnie zmienione.",
+                  "hwid_not_set": "Ten slot nie ma jeszcze przypisanego HWID.",
+                  "hwid_reset": "HWID zostało zresetowane."
+                }
+              },
+              "download_response": {
+                "validation": {
+                  "invalid_type": "Wybrany typ pliku nie jest dostępny."
+                },
+                "code": {
+                  "no_data": "Dane nie zostały przesłane.",
+                  "not_logged_in": "Nie zalogowano.",
+                  "license_not_found": "Nie znaleziono licencji.",
+                  "license_expired": "Licencja wygasła.",
+                  "no_beta_access": "Brak dostępu do beta.",
+                  "no_hwid_set": "Musisz przypisać HWID do swojej licencji, aby móc pobrać ten plik.",
+                  "download_error": "Wystąpił błąd podczas pobierania pliku.",
+                  "download_started": "Pobieranie rozpoczęte.",
+                  "account_banned": "Twoje konto zostało zawieszone."
+                }
+              }
+            }
+          },
+          "en": {
+            "index": {
+              "meta": {
+                "title": "Home"
+              },
+              "hero": {
+                "version": "Version 5.0",
+                "title": "Unleash the <1>full<3/></1> potential",
+                "subtitle": "Of your Minecraft experience with Grim Client",
+                "button": "Get started now"
+              },
+              "sections": {
+                "undetectable": {
+                  "title": "Stay under the radar!",
+                  "description": "Grim Client, in addition to providing entertainment features, also offers options that allow you to bypass administrative oversight. Thanks to the Self Destruct feature, you can avoid detection by cheat or manipulation identification tools in the game."
+                },
+                "interface": {
+                  "title": "Discover the latest update",
+                  "subtitle": "55+ new features!"
+                },
+                "reviews": {
+                  "title": "Trusted by a large community of players!",
+                  "subtitle": "over 13500+ customers"
+                },
+                "configs": {
+                  "title": "CLOUD",
+                  "subtitle": "User configurations available without downloading anything."
+                },
+                "pricing": {
+                  "title": "Pricing",
+                  "subtitle": "Affordable, flexible plans for all users",
+                  "bestseller": "Bestseller",
+                  "buy_button": "Buy Now"
+                },
+                "faq": {
+                  "title": "FAQs",
+                  "subtitle": "Answers to the most frequently asked questions."
+                },
+                "cta": {
+                  "title": "Ready for enhancing your experience?",
+                  "subtitle": "Purchase Grim Client now.",
+                  "purchase_button": "Purchase now"
+                }
+              }
+            },
+            "common": {
+              "date_locale": "en-US",
+              "toast": {
+                "error_title": "Error"
+              },
+              "timer": {
+                "days": "Days",
+                "hours": "Hrs",
+                "minutes": "Min",
+                "seconds": "Sec"
+              },
+              "cookie_info": {
+                "title": "Information on cookies",
+                "content": "We care about your data and use cookies solely to ensure functionality and enhance your experience on the site. By using this website, you accept our <2>privacy policy</2>.",
+                "accept_button": "Accept"
+              },
+              "navbar": {
+                "logo_name": "GrimClient.eu",
+                "navigation_links": {
+                  "home": "Home",
+                  "purchase": "Purchase",
+                  "showcase": "Showcase",
+                  "faq": "FAQ"
+                },
+                "account": {
+                  "logged_as": "Logged in as",
+                  "links": {
+                    "dashboard": "My licenses",
+                    "settings": "Settings",
+                    "faq": "FAQ",
+                    "billing": "Billing history",
+                    "support": "Support",
+                    "logout": "Logout"
+                  }
+                },
+                "login_link": "Log in"
+              },
+              "footer": {
+                "logo_name": "GrimClient.eu",
+                "system_status": "All systems operational",
+                "sitemap": {
+                  "title": "Sitemap",
+                  "links": {
+                    "index": "Home",
+                    "purchase": "Purchase",
+                    "showcase": "Showcase",
+                    "faq": "FAQ"
+                  }
+                },
+                "social_media": {
+                  "title": "Social media",
+                  "links": {
+                    "discord": {
+                      "name": "Discord",
+                      "href": "https://discord.gg/grimclient"
+                    },
+                    "facebook": {
+                      "name": "",
+                      "href": ""
+                    },
+                    "youtube": {
+                      "name": "YouTube",
+                      "href": "https://www.youtube.com/@grim.client/featured"
+                    }
+                  }
+                },
+                "contact": {
+                  "title": "Contact",
+                  "links": {
+                    "contact": "contact@grimclient.pl",
+                    "terms": "Terms of Service",
+                    "privacy": "Privacy Policy"
+                  }
+                },
+                "copyright": {
+                  "title": "© GrimClient.eu | All rights reserved.",
+                  "description": "GrimClient is not affiliated with Mojang AB, the company's commercial activities comply with Mojang AB policy."
+                }
+              },
+              "dashboard_navigation": {
+                "title": "Grim Client",
+                "links": {
+                  "home": "My licenses",
+                  "billing": "Billing history",
+                  "settings": "Settings",
+                  "faq": "FAQ (Guide)",
+                  "support": "Support"
+                }
+              },
+              "ban_modal": {
+                "title": "Account suspended",
+                "description": "Your account has been suspended. If you believe this is a mistake, please contact support.",
+                "reason_label": "Reason",
+                "no_reason": "No reason was provided."
+              }
+            },
+            "licenses": {
+              "buy_modal": {
+                "title": "Purchase form",
+                "hwid_notice": "Note that changing the HWID requires an additional fee!",
+                "form": {
+                  "input": {
+                    "email": {
+                      "label": "E-mail",
+                      "placeholder": ""
+                    },
+                    "hwid_changes": {
+                      "label": "Amount of changes",
+                      "placeholder": ""
+                    },
+                    "discount": {
+                      "label": "Discount code",
+                      "placeholder": ""
+                    },
+                    "referral": {
+                      "label": "Referral code",
+                      "placeholder": ""
+                    }
+                  },
+                  "payments": "Select payment method",
+                  "payment_method": {
+                    "cashbill": "Transfer / BLIK / PaySafeCard",
+                    "stripe": "Stripe"
+                  },
+                  "statements": "Statements",
+                  "terms_checkbox": "I accept the <2>terms of service</2> and <6>privacy policy</6>.",
+                  "data_processing_checkbox": "I agree to the immediate commencement of the digital service and acknowledge that I lose my right to withdraw from the contract.",
+                  "submit_button": "Checkout"
+                }
+              },
+              "order_response": {
+                "validation": {
+                  "no_service": "No service selected.",
+                  "no_license": "No license selected.",
+                  "discount_not_allowed": "Discount code cannot be used with this payment.",
+                  "referral_not_allowed": "Referral code cannot be used with this payment.",
+                  "invalid_hwid": "Invalid HWID.",
+                  "no_payment_method": "No payment method selected."
+                },
+                "code": {
+                  "no_data": "Data was not sent.",
+                  "not_logged_in": "Not logged in.",
+                  "invalid_payment_method": "An error occurred during the transaction preparation.",
+                  "missing_order_data": "Missing order data, please try again.",
+                  "missing_user_data": "Missing user data, please try again.",
+                  "missing_service": "Missing service, please try again.",
+                  "missing_license": "Missing license, please try again.",
+                  "missing_hwid": "Missing HWID, please try again.",
+                  "missing_price": "An error occurred, please refresh the page and try again.",
+                  "user_not_found": "User not found, please try again.",
+                  "service_unavailable": "Selected service is not available, please try again.",
+                  "license_not_found": "License not found.",
+                  "invalid_hwid": "Invalid HWID.",
+                  "too_many_hwids": "The maximum number of HWIDs for this license has been reached.",
+                  "invalid_order": "An error occurred, the order cannot be accepted.",
+                  "discount_not_allowed": "Discount code cannot be used with this payment.",
+                  "price_mismatch": "Price mismatch, please refresh the page and try again.",
+                  "discount_error": "An error occurred while applying the discount.",
+                  "unknown_payment_error": "An error occurred during the order submission.",
+                  "redirecting_to_payment": "Redirecting to payment..",
+                  "hwid_already_set": "This HWID has already been set.",
+                  "hwid_change_error": "An error occurred while changing the HWID.",
+                  "hwid_changed": "HWID has been changed.",
+                  "hwid_not_set": "This slot has no HWID assigned yet.",
+                  "hwid_reset": "HWID has been reset."
+                }
+              },
+              "download_response": {
+                "validation": {
+                  "invalid_type": "Selected type is not available."
+                },
+                "code": {
+                  "no_data": "Data was not sent.",
+                  "not_logged_in": "Not logged in.",
+                  "license_not_found": "License not found.",
+                  "license_expired": "The license has expired.",
+                  "no_beta_access": "No beta access.",
+                  "no_hwid_set": "You need set a HWID for your license to be able to download this file.",
+                  "download_error": "An error occurred while downloading the file.",
+                  "download_started": "Download started.",
+                  "account_banned": "Your account has been banned."
+                }
+              }
+            }
+          }
+        },
+        "initialLocale": "pl",
+        "ns": [
+          "index",
+          "common",
+          "licenses"
+        ],
+        "userConfig": null
+      },
+      "settings": {
+        "id": 1,
+        "documentId": "jfz7bzk106bxs9ckg7h4qj67",
+        "pageTitle": " | Grim Client",
+        "pageDescription": "Uwolnij pełny potencjał swojej Minecraftowej przygody.",
+        "metaKeywords": "grim, minecraft, client, utility, ghost",
+        "discordUrl": "https://discord.gg/grimclient",
+        "shopActive": true,
+        "contactMail": "contact@grimclient.pl",
+        "createdAt": "2025-01-10T22:00:34.104Z",
+        "updatedAt": "2026-10-31T18:01:00.601Z",
+        "publishedAt": "2026-10-31T18:00:59.030Z",
+        "locale": "pl",
+        "hwidDashboardV2Enabled": true,
+        "defaultSeo": null,
+        "faqs": [
+          {
+            "id": 7,
+            "title": "Co to Grim Client?",
+            "description": "Grim Client jest płatnym oprogramowaniem przeznaczonym do gry Minecraft, które umożliwia korzystanie z rozszerzonych funkcji modyfikujących rozgrywkę."
+          },
+          {
+            "id": 8,
+            "title": "Jak mogę korzystać z Grim Client?",
+            "description": "Do korzystania z Grim Client potrzebna jest aktywna licencja, konto Minecraft oraz jeden z obsługiwanych launcherów: Minecraft Launcher, Lunar Client, Dawn Client lub Modrinth Client. Grim Client wspiera obecnie wersję 26.2 Minecraft Java Edition. Starsze wersje, takie jak 1.20.1, 1.21.4, 1.21.11 i 26.1.2, są nadal dostępne w wydaniach Legacy."
+          },
+          {
+            "id": 9,
+            "title": "Jakie funkcje oferuje Grim Client?",
+            "description": "Grim Client oferuje szeroki wachlarz funkcji, w tym Kill Aura, Reach, X-Ray, ESP, Aim Bot i wiele więcej! Łącznie dostępnych jest ponad 150 zaawansowanych funkcjonalności. Aby poznać pełną listę i być na bieżąco z nowościami, śledź nasze media społecznościowe!"
+          },
+          {
+            "id": 10,
+            "title": "Czy moje dane są bezpieczne przy używaniu Grim Client?",
+            "description": "Grim Client zbiera minimalną ilość danych potrzebnych do weryfikacji oryginalności oprogramowania. Wszystkie dane są zaszyfrowane i przechowywane w bezpiecznym miejscu."
+          },
+          {
+            "id": 11,
+            "title": "Gdzie moge dowiedziec sie wiecej o Grim Client?",
+            "description": "Szczegółowe informacje o Grim Client znajdziesz na naszych mediach społecznościowych, takich jak YouTube, TikTok oraz Discord! Śledź nas, aby być na bieżąco z nowościami i aktualizacjami!"
+          },
+          {
+            "id": 19,
+            "title": "Jakie są wymagania sprzętowe Grim Client?",
+            "description": "Do poprawnego działania Grim Client wymagany jest system Windows 10/11 x64 oraz komputer spełniający wymagania gry Minecraft Java Edition."
+          }
+        ],
+        "notice": {
+          "id": 1,
+          "enabled": true,
+          "text": "Halloweenowa promocja wystartowała! | Grim Client 5.0 już dostępny!",
+          "animated": true,
+          "color1": "#ff9225",
+          "color2": "#f56c10"
+        },
+        "customerNotice": {
+          "id": 3,
+          "enabled": false,
+          "text": "TEST",
+          "animated": true,
+          "color1": "#7b2525",
+          "color2": "#d5c346"
+        },
+        "reviews": [
+          {
+            "id": 3014,
+            "text": "LEGIT HAS EVERY FEATURE U NEED! EASY TO SET UP! BLATANT SEMI RAGE AND LEGIT",
+            "nick": "blueloveschrist",
+            "tag": "blueloveschrist",
+            "avatar": {
+              "id": 3,
+              "documentId": "n59eqg1vk13sz0x8fuuu1b9l",
+              "name": "6dbf5eaf587fa7d56fb01b2501daeb29_d108030eb7.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 80,
+              "height": 80,
+              "formats": null,
+              "hash": "6dbf5eaf587fa7d56fb01b2501daeb29_d108030eb7_89e62209d9",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 1.26,
+              "url": "/uploads/6dbf5eaf587fa7d56fb01b2501daeb29_d108030eb7_89e62209d9.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2025-03-27T16:08:48.440Z",
+              "updatedAt": "2025-03-27T16:08:48.440Z",
+              "publishedAt": "2025-03-27T16:08:48.441Z",
+              "focalPoint": null
+            }
+          },
+          {
+            "id": 3015,
+            "text": "Gram na grimie juz troche czasu i polecam kupic miła administracaja legit free topki ani razu mnie nie wykryli",
+            "nick": "byczqv2",
+            "tag": "byczqv2",
+            "avatar": {
+              "id": 4,
+              "documentId": "yr51nsbk667gemxsxpaywra1",
+              "name": "1285c69ef59f89b74cbe864cb13ca713_a4667eaee5.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 80,
+              "height": 80,
+              "formats": null,
+              "hash": "1285c69ef59f89b74cbe864cb13ca713_a4667eaee5_0b2bd89e38",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 0.28,
+              "url": "/uploads/1285c69ef59f89b74cbe864cb13ca713_a4667eaee5_0b2bd89e38.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2025-03-27T16:10:13.542Z",
+              "updatedAt": "2025-03-27T16:10:13.542Z",
+              "publishedAt": "2025-03-27T16:10:13.542Z",
+              "focalPoint": null
+            }
+          },
+          {
+            "id": 3016,
+            "text": "Legit zajebiste, grane na wielu serwerach po pare godzin i żadnego bana ani od ac ani sprawdzania nie było z mocnym cfg 💪 ",
+            "nick": "h1qr",
+            "tag": "h1qr",
+            "avatar": {
+              "id": 5,
+              "documentId": "ow86itcnxjk68r2egpz2wycc",
+              "name": "18e336a74a159cfd_61a25f5f94.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 256,
+              "height": 256,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_18e336a74a159cfd_61a25f5f94.png",
+                  "hash": "thumbnail_18e336a74a159cfd_61a25f5f94_16fe8cc006",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 156,
+                  "height": 156,
+                  "size": 4.34,
+                  "sizeInBytes": 4337,
+                  "url": "/uploads/thumbnail_18e336a74a159cfd_61a25f5f94_16fe8cc006.png"
+                }
+              },
+              "hash": "18e336a74a159cfd_61a25f5f94_16fe8cc006",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 1.46,
+              "url": "/uploads/18e336a74a159cfd_61a25f5f94_16fe8cc006.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2025-03-27T16:11:16.810Z",
+              "updatedAt": "2025-03-27T16:11:16.810Z",
+              "publishedAt": "2025-03-27T16:11:16.811Z",
+              "focalPoint": null
+            }
+          },
+          {
+            "id": 3017,
+            "text": "Chciałbym wyrazić swoje zadowolenie z zakupionego produktu oraz obsługi. Produkt w pełni spełnił moje oczekiwania – jest solidny, funkcjonalny i wykonany z dbałością o szczegóły. Dodatkowo obsługa klienta była na najwyższym poziomie – wszystko przebiegło szybko, sprawnie i w miłej atmosferze. Serdecznie polecam!",
+            "nick": "misiupysiu21",
+            "tag": "misiupysiu21",
+            "avatar": {
+              "id": 6,
+              "documentId": "w1zokh880gqtjsnbkk8k2523",
+              "name": "f3e0d8b0102876c99dcb04da3b4c718f_5afe5d5950.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 80,
+              "height": 80,
+              "formats": null,
+              "hash": "f3e0d8b0102876c99dcb04da3b4c718f_5afe5d5950_f95feb50d3",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 2.43,
+              "url": "/uploads/f3e0d8b0102876c99dcb04da3b4c718f_5afe5d5950_f95feb50d3.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2025-03-27T16:11:50.834Z",
+              "updatedAt": "2025-03-27T16:11:50.834Z",
+              "publishedAt": "2025-03-27T16:11:50.835Z",
+              "focalPoint": null
+            }
+          },
+          {
+            "id": 3018,
+            "text": "Drugi legit check mam juz około 3 tygodnie i moja opinia o tym kliencie jest taka ze jest on mega dobry i praktycznie nie wykrywalny \nSprawdzali mnie na rapach,minestar,anarchia i jakieś mniejsze serwery, na żadnym z nich mi nie wykryli grima więc jest on praktycznie nie wykrywalny.\nAdministracja jest fajna i pomocna mega bardzo polecam😘😘",
+            "nick": "sheffaa",
+            "tag": "sheffaa",
+            "avatar": {
+              "id": 7,
+              "documentId": "qw3yvwizz0zl7woqame5kfhp",
+              "name": "170a5c5f0dd54032ecffa3dd405d6c9a_5a3fbc6525.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 80,
+              "height": 80,
+              "formats": null,
+              "hash": "170a5c5f0dd54032ecffa3dd405d6c9a_5a3fbc6525_095c8657d1",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 4.76,
+              "url": "/uploads/170a5c5f0dd54032ecffa3dd405d6c9a_5a3fbc6525_095c8657d1.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2025-03-27T16:12:19.846Z",
+              "updatedAt": "2025-03-27T16:12:19.846Z",
+              "publishedAt": "2025-03-27T16:12:19.846Z",
+              "focalPoint": null
+            }
+          },
+          {
+            "id": 3019,
+            "text": "+rep mega miła administracja, client posiada niezwykle dobrą kill aura i bardzo przyjazne menu, sporo podstawowych funkcji ale też takich mniej popularnych. Mega spoko na każdy serwer.",
+            "nick": "oauth_",
+            "tag": "oauth_",
+            "avatar": {
+              "id": 8,
+              "documentId": "wnh921jczctwnefcwcczo056",
+              "name": "a_0b3032d4ad08bb25d9e9c8a254fb654e_44b674acc0.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 80,
+              "height": 80,
+              "formats": null,
+              "hash": "a_0b3032d4ad08bb25d9e9c8a254fb654e_44b674acc0_6e71b884e9",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 4.24,
+              "url": "/uploads/a_0b3032d4ad08bb25d9e9c8a254fb654e_44b674acc0_6e71b884e9.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2025-03-27T16:12:44.411Z",
+              "updatedAt": "2025-03-27T16:12:44.411Z",
+              "publishedAt": "2025-03-27T16:12:44.412Z",
+              "focalPoint": null
+            }
+          },
+          {
+            "id": 3022,
+            "text": "legit jak szukasz aktualnie najlepszego cheata do mc w pl albo nawet w eu to dobrze trafiles polecam",
+            "nick": "_0rasz_",
+            "tag": "_0rasz_",
+            "avatar": {
+              "id": 9,
+              "documentId": "dfq2qyfm73wfsjuz43hesx1q",
+              "name": "0fa73d62ecc1a599cfa36cecb7533c86_116b23f645.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 80,
+              "height": 80,
+              "formats": null,
+              "hash": "0fa73d62ecc1a599cfa36cecb7533c86_116b23f645_905b3766b6",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 5.38,
+              "url": "/uploads/0fa73d62ecc1a599cfa36cecb7533c86_116b23f645_905b3766b6.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2025-03-27T16:13:05.516Z",
+              "updatedAt": "2025-03-27T16:13:05.516Z",
+              "publishedAt": "2025-03-27T16:13:05.517Z",
+              "focalPoint": null
+            }
+          },
+          {
+            "id": 3020,
+            "text": "Nie wiem co tu jest odjebane z tą aurą ale czegoś takiego to jeszcze nie widziałem, aura pożądnie wali  oponentów po czerepach aż miło sie patrzy. fakelag cudo.",
+            "nick": "nofkil69",
+            "tag": "nofkil69",
+            "avatar": {
+              "id": 10,
+              "documentId": "h2x5vk2lfwlrqpxdyp16ros1",
+              "name": "7b31c9a4cc146873f51bc5569e19446f_87e09a19b4.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 80,
+              "height": 80,
+              "formats": null,
+              "hash": "7b31c9a4cc146873f51bc5569e19446f_87e09a19b4_8cc2a0f204",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 2.43,
+              "url": "/uploads/7b31c9a4cc146873f51bc5569e19446f_87e09a19b4_8cc2a0f204.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2025-03-27T16:13:32.858Z",
+              "updatedAt": "2025-03-27T16:13:32.858Z",
+              "publishedAt": "2025-03-27T16:13:32.858Z",
+              "focalPoint": null
+            }
+          },
+          {
+            "id": 3023,
+            "text": "Legit , najbardziej dopracowane cheaty jakie widzialem ktorych 90% administracji nie umie wykryc",
+            "nick": "n1kipiki",
+            "tag": "n1kipiki",
+            "avatar": {
+              "id": 11,
+              "documentId": "hjdobdtkt8xodjlc6o5vlvfl",
+              "name": "5e4c14437a9d2107f02f6c9db2169527_db94fada33.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 80,
+              "height": 80,
+              "formats": null,
+              "hash": "5e4c14437a9d2107f02f6c9db2169527_db94fada33_78e04cfc20",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 3.81,
+              "url": "/uploads/5e4c14437a9d2107f02f6c9db2169527_db94fada33_78e04cfc20.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2025-03-27T16:13:54.604Z",
+              "updatedAt": "2025-03-27T16:13:54.604Z",
+              "publishedAt": "2025-03-27T16:13:54.605Z",
+              "focalPoint": null
+            }
+          },
+          {
+            "id": 3021,
+            "text": "Legit na początku byłem sceptycznie nastawiony no bo oczywiście mało popularny client może być scamem ale jest mega do legit/closet cheatingu jak i blatant",
+            "nick": "itzsoftu",
+            "tag": "itzsoftu",
+            "avatar": {
+              "id": 12,
+              "documentId": "taolow349dp5d70lg1bbs0h8",
+              "name": "2ca8680fcfed1974de6b3abb6624efcd_93358a7219.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 80,
+              "height": 80,
+              "formats": null,
+              "hash": "2ca8680fcfed1974de6b3abb6624efcd_93358a7219_bcd913466f",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 1.48,
+              "url": "/uploads/2ca8680fcfed1974de6b3abb6624efcd_93358a7219_bcd913466f.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2025-03-27T16:14:23.970Z",
+              "updatedAt": "2025-03-27T16:14:23.970Z",
+              "publishedAt": "2025-03-27T16:14:23.970Z",
+              "focalPoint": null
+            }
+          },
+          {
+            "id": 3024,
+            "text": "legit, arguably the best client I've used yet. Would HIGHLY recommend.",
+            "nick": "the_floater",
+            "tag": "the_floater",
+            "avatar": {
+              "id": 13,
+              "documentId": "lxwnsnchj4fufxvupdhp54i9",
+              "name": "a_f8729e31ac5ae14b8ffce7968f23a6be_14b0b2a1c1.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 80,
+              "height": 80,
+              "formats": null,
+              "hash": "a_f8729e31ac5ae14b8ffce7968f23a6be_14b0b2a1c1_af18a9d681",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 4.45,
+              "url": "/uploads/a_f8729e31ac5ae14b8ffce7968f23a6be_14b0b2a1c1_af18a9d681.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2025-03-27T16:14:47.488Z",
+              "updatedAt": "2025-03-27T16:14:47.488Z",
+              "publishedAt": "2025-03-27T16:14:47.489Z",
+              "focalPoint": null
+            }
+          },
+          {
+            "id": 3025,
+            "text": "Legit Bardzo polecam cheata anty lag nie mógł być lepiej zrobiony 99% dueli wygrywam komarek pięknie latał dopóki nie naprawili antycheata na rapach ale na innych śmiga i killaura nie wykrywala nigdzie zajebista. w skrócie Grim 0nTop",
+            "nick": "andrzej_kapitan",
+            "tag": "andrzej_kapitan",
+            "avatar": {
+              "id": 14,
+              "documentId": "gsoqei59zwbmus0wze94bhzj",
+              "name": "e2a63e27deedd4141a5fe111b2c36f7a_df6e60898c.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 80,
+              "height": 80,
+              "formats": null,
+              "hash": "e2a63e27deedd4141a5fe111b2c36f7a_df6e60898c_12f7ba2150",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 1.86,
+              "url": "/uploads/e2a63e27deedd4141a5fe111b2c36f7a_df6e60898c_12f7ba2150.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2025-03-27T16:15:09.534Z",
+              "updatedAt": "2025-03-27T16:15:09.534Z",
+              "publishedAt": "2025-03-27T16:15:09.535Z",
+              "focalPoint": null
+            }
+          },
+          {
+            "id": 3026,
+            "text": "Grim Client to jak prawdziwie dobry wybór dla każdego, kto szuka bezpiecznego i dobrze optymalizowanego klienta. Działa sprawnie, posiada szeroki katalog funkcji i jest ciągle rozwijany. Jego stabilność i zabezpieczenie przed wykryciem sprawia, że jest wybitny w stosunku do innych clientów. Jeśli zależy tobie na niezawodności oraz wydajności swojej rozgrywki, na pewno warto go sprawdzić!",
+            "nick": "hardkorek3",
+            "tag": "hardkorek3",
+            "avatar": {
+              "id": 16,
+              "documentId": "zjbzf6grr0j0tvdgmwr93jc2",
+              "name": "what-would-idksterling-say-about-this-sub-v0-tzjbo3qzal5e1.webp",
+              "alternativeText": null,
+              "caption": null,
+              "width": 501,
+              "height": 350,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_what-would-idksterling-say-about-this-sub-v0-tzjbo3qzal5e1.webp",
+                  "hash": "thumbnail_what_would_idksterling_say_about_this_sub_v0_tzjbo3qzal5e1_278fc48409",
+                  "ext": ".webp",
+                  "mime": "image/webp",
+                  "path": null,
+                  "width": 223,
+                  "height": 156,
+                  "size": 7.47,
+                  "sizeInBytes": 7470,
+                  "url": "/uploads/thumbnail_what_would_idksterling_say_about_this_sub_v0_tzjbo3qzal5e1_278fc48409.webp"
+                },
+                "small": {
+                  "name": "small_what-would-idksterling-say-about-this-sub-v0-tzjbo3qzal5e1.webp",
+                  "hash": "small_what_would_idksterling_say_about_this_sub_v0_tzjbo3qzal5e1_278fc48409",
+                  "ext": ".webp",
+                  "mime": "image/webp",
+                  "path": null,
+                  "width": 500,
+                  "height": 349,
+                  "size": 23.18,
+                  "sizeInBytes": 23178,
+                  "url": "/uploads/small_what_would_idksterling_say_about_this_sub_v0_tzjbo3qzal5e1_278fc48409.webp"
+                }
+              },
+              "hash": "what_would_idksterling_say_about_this_sub_v0_tzjbo3qzal5e1_278fc48409",
+              "ext": ".webp",
+              "mime": "image/webp",
+              "size": 28.88,
+              "url": "/uploads/what_would_idksterling_say_about_this_sub_v0_tzjbo3qzal5e1_278fc48409.webp",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2025-03-30T14:34:59.304Z",
+              "updatedAt": "2025-04-17T18:58:50.517Z",
+              "publishedAt": "2025-03-30T14:34:59.305Z",
+              "focalPoint": null
+            }
+          },
+          {
+            "id": 3027,
+            "text": "Legit kupiłem miesiąc temu i od tego momentu żadnego bana nie dostałem auto web, elytra target, kill aura śmiga elegancko",
+            "nick": "𝕸𝖎𝖑𝖔𝖘𝖟𝖊𝖐",
+            "tag": "milosszek",
+            "avatar": {
+              "id": 49,
+              "documentId": "qiefnpjjrqi8xcp1mwd65ef1",
+              "name": "milosszek-avatar-1024.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 374,
+              "height": 374,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_milosszek-avatar-1024.png",
+                  "hash": "thumbnail_milosszek_avatar_1024_7aa0d9a8fb",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 156,
+                  "height": 156,
+                  "size": 48.41,
+                  "sizeInBytes": 48411,
+                  "url": "/uploads/thumbnail_milosszek_avatar_1024_7aa0d9a8fb.png"
+                }
+              },
+              "hash": "milosszek_avatar_1024_7aa0d9a8fb",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 56.53,
+              "url": "/uploads/milosszek_avatar_1024_7aa0d9a8fb.png",
+              "previewUrl": null,
+              "provider": "@turbostrapi/strapi-provider-upload-multiprovider",
+              "provider_metadata": null,
+              "createdAt": "2026-09-21T13:10:00.929Z",
+              "updatedAt": "2026-09-21T13:10:00.929Z",
+              "publishedAt": "2026-09-21T13:10:00.929Z",
+              "focalPoint": null
+            }
+          },
+          {
+            "id": 3028,
+            "text": "no powiem tak, uzywam tego clienta duzo i moge powiedziec ze to jest jeden z jedynych clientow na rynku ktory ma affordable price i ma w ciul duzo opcji i do tego jest praktycznie undetected wiec jednym slowem mowiac... LEGIT!",
+            "nick": "essaztobakilledby.",
+            "tag": "essaztobakilledby.",
+            "avatar": {
+              "id": 50,
+              "documentId": "s72po6pfxa8t21ji3pg4nspj",
+              "name": "essaztobakilledby.-avatar-1024.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 40,
+              "height": 40,
+              "formats": null,
+              "hash": "essaztobakilledby_avatar_1024_d4eb18245c",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 0.15,
+              "url": "/uploads/essaztobakilledby_avatar_1024_d4eb18245c.png",
+              "previewUrl": null,
+              "provider": "@turbostrapi/strapi-provider-upload-multiprovider",
+              "provider_metadata": null,
+              "createdAt": "2026-09-21T13:10:31.866Z",
+              "updatedAt": "2026-09-21T13:10:31.866Z",
+              "publishedAt": "2026-09-21T13:10:31.866Z",
+              "focalPoint": null
+            }
+          },
+          {
+            "id": 3029,
+            "text": "Legit I have so much fun ngl doesn’t get u banned in certain servers like yk Staff are also really kind and helpful",
+            "nick": "Asterenx",
+            "tag": "asterenx",
+            "avatar": {
+              "id": 51,
+              "documentId": "mhvbk3jozdx3yq3zo9mbgars",
+              "name": "asterenx-avatar-1024.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1024,
+              "height": 1024,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_asterenx-avatar-1024.png",
+                  "hash": "thumbnail_asterenx_avatar_1024_9dadda32ed",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 156,
+                  "height": 156,
+                  "size": 35.51,
+                  "sizeInBytes": 35511,
+                  "url": "/uploads/thumbnail_asterenx_avatar_1024_9dadda32ed.png"
+                },
+                "small": {
+                  "name": "small_asterenx-avatar-1024.png",
+                  "hash": "small_asterenx_avatar_1024_9dadda32ed",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 500,
+                  "height": 500,
+                  "size": 293.95,
+                  "sizeInBytes": 293950,
+                  "url": "/uploads/small_asterenx_avatar_1024_9dadda32ed.png"
+                },
+                "medium": {
+                  "name": "medium_asterenx-avatar-1024.png",
+                  "hash": "medium_asterenx_avatar_1024_9dadda32ed",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 750,
+                  "height": 750,
+                  "size": 601.76,
+                  "sizeInBytes": 601761,
+                  "url": "/uploads/medium_asterenx_avatar_1024_9dadda32ed.png"
+                },
+                "large": {
+                  "name": "large_asterenx-avatar-1024.png",
+                  "hash": "large_asterenx_avatar_1024_9dadda32ed",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 1000,
+                  "height": 1000,
+                  "size": 967.11,
+                  "sizeInBytes": 967114,
+                  "url": "/uploads/large_asterenx_avatar_1024_9dadda32ed.png"
+                }
+              },
+              "hash": "asterenx_avatar_1024_9dadda32ed",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 251.91,
+              "url": "/uploads/asterenx_avatar_1024_9dadda32ed.png",
+              "previewUrl": null,
+              "provider": "@turbostrapi/strapi-provider-upload-multiprovider",
+              "provider_metadata": null,
+              "createdAt": "2026-09-21T13:11:03.619Z",
+              "updatedAt": "2026-09-21T13:11:03.619Z",
+              "publishedAt": "2026-09-21T13:11:03.619Z",
+              "focalPoint": null
+            }
+          },
+          {
+            "id": 3030,
+            "text": "Legit na początku byłem sceptycznie nastawiony no bo oczywiście mało popularny client może być scamem ale jest mega do legit/closet cheatingu jak i blatant",
+            "nick": "Sandu",
+            "tag": "itzsoftu",
+            "avatar": {
+              "id": 52,
+              "documentId": "byjph4x83awh7eqzxdq7podx",
+              "name": "itzsoftu-avatar-1024.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 736,
+              "height": 736,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_itzsoftu-avatar-1024.png",
+                  "hash": "thumbnail_itzsoftu_avatar_1024_92d73adb15",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 156,
+                  "height": 156,
+                  "size": 28.27,
+                  "sizeInBytes": 28272,
+                  "url": "/uploads/thumbnail_itzsoftu_avatar_1024_92d73adb15.png"
+                },
+                "small": {
+                  "name": "small_itzsoftu-avatar-1024.png",
+                  "hash": "small_itzsoftu_avatar_1024_92d73adb15",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 500,
+                  "height": 500,
+                  "size": 199.15,
+                  "sizeInBytes": 199154,
+                  "url": "/uploads/small_itzsoftu_avatar_1024_92d73adb15.png"
+                }
+              },
+              "hash": "itzsoftu_avatar_1024_92d73adb15",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 85.6,
+              "url": "/uploads/itzsoftu_avatar_1024_92d73adb15.png",
+              "previewUrl": null,
+              "provider": "@turbostrapi/strapi-provider-upload-multiprovider",
+              "provider_metadata": null,
+              "createdAt": "2026-09-21T13:11:35.781Z",
+              "updatedAt": "2026-09-21T13:11:35.781Z",
+              "publishedAt": "2026-09-21T13:11:35.782Z",
+              "focalPoint": null
+            }
+          },
+          {
+            "id": 3031,
+            "text": "I genuinely haven't touched crystal pvp or mace but this made crystal pvp and mace so much easier I destroyed my lt4 friend this is legit",
+            "nick": "dissering",
+            "tag": "dissering",
+            "avatar": {
+              "id": 53,
+              "documentId": "emaa1cr4btbv3chnul09hqtr",
+              "name": "dissering-avatar-1024.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 256,
+              "height": 256,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_dissering-avatar-1024.png",
+                  "hash": "thumbnail_dissering_avatar_1024_e7a30e7c9d",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 156,
+                  "height": 156,
+                  "size": 45.57,
+                  "sizeInBytes": 45574,
+                  "url": "/uploads/thumbnail_dissering_avatar_1024_e7a30e7c9d.png"
+                }
+              },
+              "hash": "dissering_avatar_1024_e7a30e7c9d",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 32.46,
+              "url": "/uploads/dissering_avatar_1024_e7a30e7c9d.png",
+              "previewUrl": null,
+              "provider": "@turbostrapi/strapi-provider-upload-multiprovider",
+              "provider_metadata": null,
+              "createdAt": "2026-09-21T13:11:49.591Z",
+              "updatedAt": "2026-09-21T13:11:49.591Z",
+              "publishedAt": "2026-09-21T13:11:49.592Z",
+              "focalPoint": null
+            }
+          },
+          {
+            "id": 3032,
+            "text": "Chciałbym wyrazić swoje zadowolenie z zakupionego produktu oraz obsługi. Produkt w pełni spełnił moje oczekiwania – jest solidny, funkcjonalny i wykonany z dbałością o szczegóły. Dodatkowo obsługa klienta była na najwyższym poziomie – wszystko przebiegło szybko, sprawnie i w miłej atmosferze. Serdecznie polecam!",
+            "nick": "muzykancik337",
+            "tag": "misiupysiu21",
+            "avatar": {
+              "id": 54,
+              "documentId": "kwezl31w2dwf0u77resau9g1",
+              "name": "misiupysiu21-avatar-1024.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 609,
+              "height": 609,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_misiupysiu21-avatar-1024.png",
+                  "hash": "thumbnail_misiupysiu21_avatar_1024_5e85159a29",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 156,
+                  "height": 156,
+                  "size": 46.29,
+                  "sizeInBytes": 46288,
+                  "url": "/uploads/thumbnail_misiupysiu21_avatar_1024_5e85159a29.png"
+                },
+                "small": {
+                  "name": "small_misiupysiu21-avatar-1024.png",
+                  "hash": "small_misiupysiu21_avatar_1024_5e85159a29",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 500,
+                  "height": 500,
+                  "size": 395.1,
+                  "sizeInBytes": 395104,
+                  "url": "/uploads/small_misiupysiu21_avatar_1024_5e85159a29.png"
+                }
+              },
+              "hash": "misiupysiu21_avatar_1024_5e85159a29",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 126.71,
+              "url": "/uploads/misiupysiu21_avatar_1024_5e85159a29.png",
+              "previewUrl": null,
+              "provider": "@turbostrapi/strapi-provider-upload-multiprovider",
+              "provider_metadata": null,
+              "createdAt": "2026-09-21T13:12:33.534Z",
+              "updatedAt": "2026-09-21T13:12:33.534Z",
+              "publishedAt": "2026-09-21T13:12:33.534Z",
+              "focalPoint": null
+            }
+          },
+          {
+            "id": 3033,
+            "text": "Dowalony cheat naprawde. Plusy: Odpowiedź na ticketa do kupna od razu, Bardzo pomocni moderatrorzy do pobrania cheata, Cheat bardzo dobrze sobie radzi, Fake Lag i Killaura PIĘKNO, Czat z customerami i configami, Minusy: Nie podoba mi się gui ale to mój gust",
+            "nick": "! Fellix",
+            "tag": "cyfraoryginal",
+            "avatar": {
+              "id": 55,
+              "documentId": "y2xpqduwbo4brjnf2o2oa0td",
+              "name": "cyfraoryginal-avatar-1024.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1024,
+              "height": 1024,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_cyfraoryginal-avatar-1024.png",
+                  "hash": "thumbnail_cyfraoryginal_avatar_1024_5649b5d0f5",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 156,
+                  "height": 156,
+                  "size": 35.54,
+                  "sizeInBytes": 35541,
+                  "url": "/uploads/thumbnail_cyfraoryginal_avatar_1024_5649b5d0f5.png"
+                },
+                "small": {
+                  "name": "small_cyfraoryginal-avatar-1024.png",
+                  "hash": "small_cyfraoryginal_avatar_1024_5649b5d0f5",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 500,
+                  "height": 500,
+                  "size": 152.95,
+                  "sizeInBytes": 152947,
+                  "url": "/uploads/small_cyfraoryginal_avatar_1024_5649b5d0f5.png"
+                },
+                "medium": {
+                  "name": "medium_cyfraoryginal-avatar-1024.png",
+                  "hash": "medium_cyfraoryginal_avatar_1024_5649b5d0f5",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 750,
+                  "height": 750,
+                  "size": 263.59,
+                  "sizeInBytes": 263588,
+                  "url": "/uploads/medium_cyfraoryginal_avatar_1024_5649b5d0f5.png"
+                },
+                "large": {
+                  "name": "large_cyfraoryginal-avatar-1024.png",
+                  "hash": "large_cyfraoryginal_avatar_1024_5649b5d0f5",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 1000,
+                  "height": 1000,
+                  "size": 374.43,
+                  "sizeInBytes": 374431,
+                  "url": "/uploads/large_cyfraoryginal_avatar_1024_5649b5d0f5.png"
+                }
+              },
+              "hash": "cyfraoryginal_avatar_1024_5649b5d0f5",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 63.51,
+              "url": "/uploads/cyfraoryginal_avatar_1024_5649b5d0f5.png",
+              "previewUrl": null,
+              "provider": "@turbostrapi/strapi-provider-upload-multiprovider",
+              "provider_metadata": null,
+              "createdAt": "2026-09-21T13:13:10.417Z",
+              "updatedAt": "2026-09-21T13:13:10.417Z",
+              "publishedAt": "2026-09-21T13:13:10.417Z",
+              "focalPoint": null
+            }
+          },
+          {
+            "id": 3034,
+            "text": "Legit Best cheat client i have ever used or payed for 10/10 its worth all your money",
+            "nick": "unknown",
+            "tag": "lokiie_",
+            "avatar": {
+              "id": 56,
+              "documentId": "y8z99fk8zuff37yv7gh0bsm7",
+              "name": "lokiie_-avatar-1024.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 515,
+              "height": 515,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_lokiie_-avatar-1024.png",
+                  "hash": "thumbnail_lokiie_avatar_1024_559f18b0e5",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 156,
+                  "height": 156,
+                  "size": 54.66,
+                  "sizeInBytes": 54656,
+                  "url": "/uploads/thumbnail_lokiie_avatar_1024_559f18b0e5.png"
+                },
+                "small": {
+                  "name": "small_lokiie_-avatar-1024.png",
+                  "hash": "small_lokiie_avatar_1024_559f18b0e5",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 500,
+                  "height": 500,
+                  "size": 397.7,
+                  "sizeInBytes": 397698,
+                  "url": "/uploads/small_lokiie_avatar_1024_559f18b0e5.png"
+                }
+              },
+              "hash": "lokiie_avatar_1024_559f18b0e5",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 104.28,
+              "url": "/uploads/lokiie_avatar_1024_559f18b0e5.png",
+              "previewUrl": null,
+              "provider": "@turbostrapi/strapi-provider-upload-multiprovider",
+              "provider_metadata": null,
+              "createdAt": "2026-09-21T13:14:21.685Z",
+              "updatedAt": "2026-09-21T13:14:21.685Z",
+              "publishedAt": "2026-09-21T13:14:21.685Z",
+              "focalPoint": null
+            }
+          },
+          {
+            "id": 3035,
+            "text": "grim client is the best client YES IT IS LEGIT",
+            "nick": "ッDawajWlatujッ",
+            "tag": "fr0nis__",
+            "avatar": {
+              "id": 57,
+              "documentId": "knuzzgykwvi0ok2n9wydkghh",
+              "name": "fr0nis__-avatar-1024.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 225,
+              "height": 225,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_fr0nis__-avatar-1024.png",
+                  "hash": "thumbnail_fr0nis_avatar_1024_9d96c9ebad",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 156,
+                  "height": 156,
+                  "size": 51.8,
+                  "sizeInBytes": 51797,
+                  "url": "/uploads/thumbnail_fr0nis_avatar_1024_9d96c9ebad.png"
+                }
+              },
+              "hash": "fr0nis_avatar_1024_9d96c9ebad",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 29.01,
+              "url": "/uploads/fr0nis_avatar_1024_9d96c9ebad.png",
+              "previewUrl": null,
+              "provider": "@turbostrapi/strapi-provider-upload-multiprovider",
+              "provider_metadata": null,
+              "createdAt": "2026-09-21T13:14:43.038Z",
+              "updatedAt": "2026-09-21T13:14:43.038Z",
+              "publishedAt": "2026-09-21T13:14:43.039Z",
+              "focalPoint": null
+            }
+          },
+          {
+            "id": 3036,
+            "text": "Grim Client to jeden z bardziej dopracowanych i stabilnych klientów dla Minecrafta, sam mialem kiedys licke na miesiac i teraz kupilem lifetime WIELKI",
+            "nick": "Michuy",
+            "tag": "insercikk",
+            "avatar": {
+              "id": 58,
+              "documentId": "pxad6ldx37nw0h4hsy1gekul",
+              "name": "insercikk-avatar-1024.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 114,
+              "height": 114,
+              "formats": null,
+              "hash": "insercikk_avatar_1024_010b06c70e",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 9.49,
+              "url": "/uploads/insercikk_avatar_1024_010b06c70e.png",
+              "previewUrl": null,
+              "provider": "@turbostrapi/strapi-provider-upload-multiprovider",
+              "provider_metadata": null,
+              "createdAt": "2026-09-21T13:15:04.310Z",
+              "updatedAt": "2026-09-21T13:15:04.310Z",
+              "publishedAt": "2026-09-21T13:15:04.310Z",
+              "focalPoint": null
+            }
+          },
+          {
+            "id": 3037,
+            "text": "Legit, sztos client, wszystko śmiga jak trzeba, zero problemów, działa płynnie i bez zarzutu, polecam każdemu kto się jeszcze waha grim client robi robotę",
+            "nick": "blummi",
+            "tag": "blummiii",
+            "avatar": {
+              "id": 59,
+              "documentId": "gxrw7r2k0srhqek0gr11lc64",
+              "name": "blummiii-avatar-1024.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 735,
+              "height": 735,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_blummiii-avatar-1024.png",
+                  "hash": "thumbnail_blummiii_avatar_1024_2597920c7c",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 156,
+                  "height": 156,
+                  "size": 57.12,
+                  "sizeInBytes": 57120,
+                  "url": "/uploads/thumbnail_blummiii_avatar_1024_2597920c7c.png"
+                },
+                "small": {
+                  "name": "small_blummiii-avatar-1024.png",
+                  "hash": "small_blummiii_avatar_1024_2597920c7c",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 500,
+                  "height": 500,
+                  "size": 482.49,
+                  "sizeInBytes": 482493,
+                  "url": "/uploads/small_blummiii_avatar_1024_2597920c7c.png"
+                }
+              },
+              "hash": "blummiii_avatar_1024_2597920c7c",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 192.56,
+              "url": "/uploads/blummiii_avatar_1024_2597920c7c.png",
+              "previewUrl": null,
+              "provider": "@turbostrapi/strapi-provider-upload-multiprovider",
+              "provider_metadata": null,
+              "createdAt": "2026-09-21T13:15:30.797Z",
+              "updatedAt": "2026-09-21T13:15:30.797Z",
+              "publishedAt": "2026-09-21T13:15:30.797Z",
+              "focalPoint": null
+            }
+          },
+          {
+            "id": 3038,
+            "text": "Legit I love the Grim client",
+            "nick": "kinyewest",
+            "tag": "9cqw",
+            "avatar": {
+              "id": 60,
+              "documentId": "gj428brgv6mkvb0tcy93o8qx",
+              "name": "9cqw.-avatar-1024.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 722,
+              "height": 722,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_9cqw.-avatar-1024.png",
+                  "hash": "thumbnail_9cqw_avatar_1024_d533743525",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 156,
+                  "height": 156,
+                  "size": 56.55,
+                  "sizeInBytes": 56552,
+                  "url": "/uploads/thumbnail_9cqw_avatar_1024_d533743525.png"
+                },
+                "small": {
+                  "name": "small_9cqw.-avatar-1024.png",
+                  "hash": "small_9cqw_avatar_1024_d533743525",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 500,
+                  "height": 500,
+                  "size": 449.37,
+                  "sizeInBytes": 449374,
+                  "url": "/uploads/small_9cqw_avatar_1024_d533743525.png"
+                }
+              },
+              "hash": "9cqw_avatar_1024_d533743525",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 214.06,
+              "url": "/uploads/9cqw_avatar_1024_d533743525.png",
+              "previewUrl": null,
+              "provider": "@turbostrapi/strapi-provider-upload-multiprovider",
+              "provider_metadata": null,
+              "createdAt": "2026-09-21T13:16:04.227Z",
+              "updatedAt": "2026-09-21T13:16:04.227Z",
+              "publishedAt": "2026-09-21T13:16:04.228Z",
+              "focalPoint": null
+            }
+          },
+          {
+            "id": 3039,
+            "text": "It's legit, pretty good too, it's also really easy to config and worth the price in my opinion",
+            "nick": "Vx.Falcon",
+            "tag": "christislordforev3r",
+            "avatar": {
+              "id": 61,
+              "documentId": "pu9zp0yvh07zi5icd17tjuj5",
+              "name": "christislordforev3r-avatar-1024.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 324,
+              "height": 324,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_christislordforev3r-avatar-1024.png",
+                  "hash": "thumbnail_christislordforev3r_avatar_1024_93605bb000",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 156,
+                  "height": 156,
+                  "size": 36.09,
+                  "sizeInBytes": 36093,
+                  "url": "/uploads/thumbnail_christislordforev3r_avatar_1024_93605bb000.png"
+                }
+              },
+              "hash": "christislordforev3r_avatar_1024_93605bb000",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 27.15,
+              "url": "/uploads/christislordforev3r_avatar_1024_93605bb000.png",
+              "previewUrl": null,
+              "provider": "@turbostrapi/strapi-provider-upload-multiprovider",
+              "provider_metadata": null,
+              "createdAt": "2026-09-21T13:16:26.450Z",
+              "updatedAt": "2026-09-21T13:16:26.450Z",
+              "publishedAt": "2026-09-21T13:16:26.450Z",
+              "focalPoint": null
+            }
+          },
+          {
+            "id": 3040,
+            "text": "legit best client ive ever used great for all types of people smp players or pvp",
+            "nick": "レ=・ワ・=ア୨ৎ",
+            "tag": "vutiepies",
+            "avatar": {
+              "id": 62,
+              "documentId": "dwjszzwdj0cywe7vjfssv6uv",
+              "name": "vutiepies-avatar-1024.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 256,
+              "height": 256,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_vutiepies-avatar-1024.png",
+                  "hash": "thumbnail_vutiepies_avatar_1024_1d5f9d967a",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 156,
+                  "height": 156,
+                  "size": 49.26,
+                  "sizeInBytes": 49257,
+                  "url": "/uploads/thumbnail_vutiepies_avatar_1024_1d5f9d967a.png"
+                }
+              },
+              "hash": "vutiepies_avatar_1024_1d5f9d967a",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 29.5,
+              "url": "/uploads/vutiepies_avatar_1024_1d5f9d967a.png",
+              "previewUrl": null,
+              "provider": "@turbostrapi/strapi-provider-upload-multiprovider",
+              "provider_metadata": null,
+              "createdAt": "2026-09-21T13:16:42.882Z",
+              "updatedAt": "2026-09-21T13:16:42.882Z",
+              "publishedAt": "2026-09-21T13:16:42.882Z",
+              "focalPoint": null
+            }
+          },
+          {
+            "id": 3041,
+            "text": "Legit mam juz rok roku nowe aktulaizacje i grim coraz lepszy kupujcie to",
+            "nick": "AdmiralSoplica",
+            "tag": "strachxx",
+            "avatar": {
+              "id": 63,
+              "documentId": "mcw6etbkte73jo3s0gupsxu6",
+              "name": "strachxx-avatar-1024.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 256,
+              "height": 256,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_strachxx-avatar-1024.png",
+                  "hash": "thumbnail_strachxx_avatar_1024_d74dd90dce",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 156,
+                  "height": 156,
+                  "size": 65.24,
+                  "sizeInBytes": 65241,
+                  "url": "/uploads/thumbnail_strachxx_avatar_1024_d74dd90dce.png"
+                }
+              },
+              "hash": "strachxx_avatar_1024_d74dd90dce",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 50.75,
+              "url": "/uploads/strachxx_avatar_1024_d74dd90dce.png",
+              "previewUrl": null,
+              "provider": "@turbostrapi/strapi-provider-upload-multiprovider",
+              "provider_metadata": null,
+              "createdAt": "2026-09-21T13:17:03.881Z",
+              "updatedAt": "2026-09-21T13:17:03.881Z",
+              "publishedAt": "2026-09-21T13:17:03.881Z",
+              "focalPoint": null
+            }
+          },
+          {
+            "id": 3042,
+            "text": "Legit szerze najlepsze haksy. Najlepsze jest to że są tam configi wbudowwane to jest zajebiste !",
+            "nick": "Adamito Papito",
+            "tag": "admiralkyy",
+            "avatar": {
+              "id": 64,
+              "documentId": "hhqxsgk4chf3nfso5bllfpx8",
+              "name": "admiralkyy-avatar-1024.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 720,
+              "height": 720,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_admiralkyy-avatar-1024.png",
+                  "hash": "thumbnail_admiralkyy_avatar_1024_94cf317d14",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 156,
+                  "height": 156,
+                  "size": 51.68,
+                  "sizeInBytes": 51677,
+                  "url": "/uploads/thumbnail_admiralkyy_avatar_1024_94cf317d14.png"
+                },
+                "small": {
+                  "name": "small_admiralkyy-avatar-1024.png",
+                  "hash": "small_admiralkyy_avatar_1024_94cf317d14",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 500,
+                  "height": 500,
+                  "size": 388.39,
+                  "sizeInBytes": 388394,
+                  "url": "/uploads/small_admiralkyy_avatar_1024_94cf317d14.png"
+                }
+              },
+              "hash": "admiralkyy_avatar_1024_94cf317d14",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 147.74,
+              "url": "/uploads/admiralkyy_avatar_1024_94cf317d14.png",
+              "previewUrl": null,
+              "provider": "@turbostrapi/strapi-provider-upload-multiprovider",
+              "provider_metadata": null,
+              "createdAt": "2026-09-21T13:17:22.259Z",
+              "updatedAt": "2026-09-21T13:17:22.259Z",
+              "publishedAt": "2026-09-21T13:17:22.259Z",
+              "focalPoint": null
+            }
+          },
+          {
+            "id": 3043,
+            "text": "Legit, the best cheat for  rage and legit cheating, i beat many lt3 with this client in uhc and mace",
+            "nick": "Filg0",
+            "tag": "zelek._12",
+            "avatar": {
+              "id": 65,
+              "documentId": "j5hcmrx2o951ox7ljzsm8xqv",
+              "name": "zelek._12-avatar-1024.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1024,
+              "height": 1024,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_zelek._12-avatar-1024.png",
+                  "hash": "thumbnail_zelek_12_avatar_1024_53a62864e7",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 156,
+                  "height": 156,
+                  "size": 1.73,
+                  "sizeInBytes": 1729,
+                  "url": "/uploads/thumbnail_zelek_12_avatar_1024_53a62864e7.png"
+                },
+                "large": {
+                  "name": "large_zelek._12-avatar-1024.png",
+                  "hash": "large_zelek_12_avatar_1024_53a62864e7",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 1000,
+                  "height": 1000,
+                  "size": 11.92,
+                  "sizeInBytes": 11918,
+                  "url": "/uploads/large_zelek_12_avatar_1024_53a62864e7.png"
+                },
+                "medium": {
+                  "name": "medium_zelek._12-avatar-1024.png",
+                  "hash": "medium_zelek_12_avatar_1024_53a62864e7",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 750,
+                  "height": 750,
+                  "size": 7.25,
+                  "sizeInBytes": 7252,
+                  "url": "/uploads/medium_zelek_12_avatar_1024_53a62864e7.png"
+                },
+                "small": {
+                  "name": "small_zelek._12-avatar-1024.png",
+                  "hash": "small_zelek_12_avatar_1024_53a62864e7",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 500,
+                  "height": 500,
+                  "size": 4.55,
+                  "sizeInBytes": 4551,
+                  "url": "/uploads/small_zelek_12_avatar_1024_53a62864e7.png"
+                }
+              },
+              "hash": "zelek_12_avatar_1024_53a62864e7",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 2.82,
+              "url": "/uploads/zelek_12_avatar_1024_53a62864e7.png",
+              "previewUrl": null,
+              "provider": "@turbostrapi/strapi-provider-upload-multiprovider",
+              "provider_metadata": null,
+              "createdAt": "2026-09-21T13:17:43.022Z",
+              "updatedAt": "2026-09-21T13:17:43.022Z",
+              "publishedAt": "2026-09-21T13:17:43.022Z",
+              "focalPoint": null
+            }
+          },
+          {
+            "id": 3044,
+            "text": "Legit very good for any type of sword combat and decent for mace really good for crystal",
+            "nick": "vixss",
+            "tag": "vixss",
+            "avatar": {
+              "id": 66,
+              "documentId": "w4tipddfqt7izg7cjkp3sys5",
+              "name": "vixss-avatar-1024.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 256,
+              "height": 256,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_vixss-avatar-1024.png",
+                  "hash": "thumbnail_vixss_avatar_1024_7d7b441b36",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 156,
+                  "height": 156,
+                  "size": 42.25,
+                  "sizeInBytes": 42250,
+                  "url": "/uploads/thumbnail_vixss_avatar_1024_7d7b441b36.png"
+                }
+              },
+              "hash": "vixss_avatar_1024_7d7b441b36",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 33.92,
+              "url": "/uploads/vixss_avatar_1024_7d7b441b36.png",
+              "previewUrl": null,
+              "provider": "@turbostrapi/strapi-provider-upload-multiprovider",
+              "provider_metadata": null,
+              "createdAt": "2026-09-21T13:18:06.757Z",
+              "updatedAt": "2026-09-21T13:18:06.757Z",
+              "publishedAt": "2026-09-21T13:18:06.758Z",
+              "focalPoint": null
+            }
+          },
+          {
+            "id": 3045,
+            "text": "Super Client Bardzo wygodny jestem zaskoczony jego wydajnoscią kill aura działa tak jak powinna czyli ostro walic bomby Oczywiscie Legit",
+            "nick": "! Prochsv",
+            "tag": "prochsv",
+            "avatar": {
+              "id": 67,
+              "documentId": "xqy1h3j0lxohp77ibe3fj9du",
+              "name": "prochsv-avatar-1024.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 503,
+              "height": 503,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_prochsv-avatar-1024.png",
+                  "hash": "thumbnail_prochsv_avatar_1024_6cda16e6bb",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 156,
+                  "height": 156,
+                  "size": 35.65,
+                  "sizeInBytes": 35648,
+                  "url": "/uploads/thumbnail_prochsv_avatar_1024_6cda16e6bb.png"
+                },
+                "small": {
+                  "name": "small_prochsv-avatar-1024.png",
+                  "hash": "small_prochsv_avatar_1024_6cda16e6bb",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 500,
+                  "height": 500,
+                  "size": 213.76,
+                  "sizeInBytes": 213762,
+                  "url": "/uploads/small_prochsv_avatar_1024_6cda16e6bb.png"
+                }
+              },
+              "hash": "prochsv_avatar_1024_6cda16e6bb",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 42.38,
+              "url": "/uploads/prochsv_avatar_1024_6cda16e6bb.png",
+              "previewUrl": null,
+              "provider": "@turbostrapi/strapi-provider-upload-multiprovider",
+              "provider_metadata": null,
+              "createdAt": "2026-09-21T13:18:25.620Z",
+              "updatedAt": "2026-09-21T13:18:25.620Z",
+              "publishedAt": "2026-09-21T13:18:25.621Z",
+              "focalPoint": null
+            }
+          },
+          {
+            "id": 3046,
+            "text": "Good client, mace modules adapts to stun slamming everything is perfect.",
+            "nick": "vqm0",
+            "tag": "vqm0_mc",
+            "avatar": {
+              "id": 68,
+              "documentId": "cepoucqiji3jha1h6ega0z2g",
+              "name": "vqm0_mc-avatar-1024.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 127,
+              "height": 127,
+              "formats": null,
+              "hash": "vqm0_mc_avatar_1024_6d5e261687",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 3.37,
+              "url": "/uploads/vqm0_mc_avatar_1024_6d5e261687.png",
+              "previewUrl": null,
+              "provider": "@turbostrapi/strapi-provider-upload-multiprovider",
+              "provider_metadata": null,
+              "createdAt": "2026-09-21T13:18:52.927Z",
+              "updatedAt": "2026-09-21T13:18:52.927Z",
+              "publishedAt": "2026-09-21T13:18:52.927Z",
+              "focalPoint": null
+            }
+          },
+          {
+            "id": 3047,
+            "text": "mam około rok jest to wspaniałe i na dodatek ma najlepszy autorynek pod anarchie miałem 2300 i już mam ponad 50k w kilka godzin ZŁOTO",
+            "nick": "Sh4dw3k",
+            "tag": "majkel.15",
+            "avatar": {
+              "id": 69,
+              "documentId": "f19u9ojqygus1khnvfzjamir",
+              "name": "majkel.15-avatar-1024.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 252,
+              "height": 252,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_majkel.15-avatar-1024.png",
+                  "hash": "thumbnail_majkel_15_avatar_1024_0cc780e50d",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 156,
+                  "height": 156,
+                  "size": 59.69,
+                  "sizeInBytes": 59690,
+                  "url": "/uploads/thumbnail_majkel_15_avatar_1024_0cc780e50d.png"
+                }
+              },
+              "hash": "majkel_15_avatar_1024_0cc780e50d",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 42.92,
+              "url": "/uploads/majkel_15_avatar_1024_0cc780e50d.png",
+              "previewUrl": null,
+              "provider": "@turbostrapi/strapi-provider-upload-multiprovider",
+              "provider_metadata": null,
+              "createdAt": "2026-09-21T13:19:20.196Z",
+              "updatedAt": "2026-09-21T13:19:20.196Z",
+              "publishedAt": "2026-09-21T13:19:20.197Z",
+              "focalPoint": null
+            }
+          },
+          {
+            "id": 3048,
+            "text": "Legit jestem naprawdę zadowolony z kupna tego clienta",
+            "nick": "kamiXo",
+            "tag": "kamil07112",
+            "avatar": {
+              "id": 70,
+              "documentId": "zkepr29obt4b96yd8935q13w",
+              "name": "kamil07112-avatar-1024.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 256,
+              "height": 256,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_kamil07112-avatar-1024.png",
+                  "hash": "thumbnail_kamil07112_avatar_1024_38baae65f7",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 156,
+                  "height": 156,
+                  "size": 33.64,
+                  "sizeInBytes": 33636,
+                  "url": "/uploads/thumbnail_kamil07112_avatar_1024_38baae65f7.png"
+                }
+              },
+              "hash": "kamil07112_avatar_1024_38baae65f7",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 15.35,
+              "url": "/uploads/kamil07112_avatar_1024_38baae65f7.png",
+              "previewUrl": null,
+              "provider": "@turbostrapi/strapi-provider-upload-multiprovider",
+              "provider_metadata": null,
+              "createdAt": "2026-09-21T13:19:39.420Z",
+              "updatedAt": "2026-09-21T13:19:39.420Z",
+              "publishedAt": "2026-09-21T13:19:39.420Z",
+              "focalPoint": null
+            }
+          },
+          {
+            "id": 3049,
+            "text": "legit zajebisty client pod klepe topowe polskie serwery mc w strachu przed grimem",
+            "nick": "Connor",
+            "tag": "connor046895",
+            "avatar": {
+              "id": 71,
+              "documentId": "coxa89xnmbrfbu8gnks2mz4j",
+              "name": "connor046895-avatar-1024.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 474,
+              "height": 474,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_connor046895-avatar-1024.png",
+                  "hash": "thumbnail_connor046895_avatar_1024_048e4f1390",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 156,
+                  "height": 156,
+                  "size": 41.64,
+                  "sizeInBytes": 41636,
+                  "url": "/uploads/thumbnail_connor046895_avatar_1024_048e4f1390.png"
+                }
+              },
+              "hash": "connor046895_avatar_1024_048e4f1390",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 80.7,
+              "url": "/uploads/connor046895_avatar_1024_048e4f1390.png",
+              "previewUrl": null,
+              "provider": "@turbostrapi/strapi-provider-upload-multiprovider",
+              "provider_metadata": null,
+              "createdAt": "2026-09-21T13:20:07.280Z",
+              "updatedAt": "2026-09-21T13:20:07.280Z",
+              "publishedAt": "2026-09-21T13:20:07.281Z",
+              "focalPoint": null
+            }
+          },
+          {
+            "id": 3050,
+            "text": "najlepsze cheaty jakie pobralem LEGIT!",
+            "nick": "inyyktosik.",
+            "tag": "magicznybudyn._",
+            "avatar": {
+              "id": 72,
+              "documentId": "ue3dtc5ardtbpbfsvx6gqpzo",
+              "name": "magicznybudyn._-avatar-1024.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 256,
+              "height": 256,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_magicznybudyn._-avatar-1024.png",
+                  "hash": "thumbnail_magicznybudyn_avatar_1024_fb0536166b",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 156,
+                  "height": 156,
+                  "size": 47.6,
+                  "sizeInBytes": 47598,
+                  "url": "/uploads/thumbnail_magicznybudyn_avatar_1024_fb0536166b.png"
+                }
+              },
+              "hash": "magicznybudyn_avatar_1024_fb0536166b",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 29.55,
+              "url": "/uploads/magicznybudyn_avatar_1024_fb0536166b.png",
+              "previewUrl": null,
+              "provider": "@turbostrapi/strapi-provider-upload-multiprovider",
+              "provider_metadata": null,
+              "createdAt": "2026-09-21T13:20:27.921Z",
+              "updatedAt": "2026-09-21T13:20:27.921Z",
+              "publishedAt": "2026-09-21T13:20:27.922Z",
+              "focalPoint": null
+            }
+          },
+          {
+            "id": 3051,
+            "text": "Legit już długo mam i nigdy się nie zawiodłem nic tylko kupować",
+            "nick": "Odiz",
+            "tag": "7odiz",
+            "avatar": {
+              "id": 73,
+              "documentId": "xl79lyebtcbowwt7hy7kok8m",
+              "name": "7odiz-avatar-1024.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 762,
+              "height": 762,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_7odiz-avatar-1024.png",
+                  "hash": "thumbnail_7odiz_avatar_1024_3448be1038",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 156,
+                  "height": 156,
+                  "size": 39.94,
+                  "sizeInBytes": 39940,
+                  "url": "/uploads/thumbnail_7odiz_avatar_1024_3448be1038.png"
+                },
+                "small": {
+                  "name": "small_7odiz-avatar-1024.png",
+                  "hash": "small_7odiz_avatar_1024_3448be1038",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 500,
+                  "height": 500,
+                  "size": 326.14,
+                  "sizeInBytes": 326135,
+                  "url": "/uploads/small_7odiz_avatar_1024_3448be1038.png"
+                },
+                "medium": {
+                  "name": "medium_7odiz-avatar-1024.png",
+                  "hash": "medium_7odiz_avatar_1024_3448be1038",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 750,
+                  "height": 750,
+                  "size": 640.32,
+                  "sizeInBytes": 640318,
+                  "url": "/uploads/medium_7odiz_avatar_1024_3448be1038.png"
+                }
+              },
+              "hash": "7odiz_avatar_1024_3448be1038",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 176.95,
+              "url": "/uploads/7odiz_avatar_1024_3448be1038.png",
+              "previewUrl": null,
+              "provider": "@turbostrapi/strapi-provider-upload-multiprovider",
+              "provider_metadata": null,
+              "createdAt": "2026-09-21T13:20:52.324Z",
+              "updatedAt": "2026-09-21T13:20:57.979Z",
+              "publishedAt": "2026-09-21T13:20:52.325Z",
+              "focalPoint": null
+            }
+          },
+          {
+            "id": 3052,
+            "text": "W client bought few days ago been pretty nice. If you have problems installing ask someone in the customer chat they sometimes pretty helpful",
+            "nick": "Kirk V",
+            "tag": "vito.developer",
+            "avatar": {
+              "id": 74,
+              "documentId": "fdr8ctgk4r0mbtdmx2tvmjo7",
+              "name": "vito.developer-avatar-1024.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 256,
+              "height": 256,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_vito.developer-avatar-1024.png",
+                  "hash": "thumbnail_vito_developer_avatar_1024_7933d92816",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 156,
+                  "height": 156,
+                  "size": 58.62,
+                  "sizeInBytes": 58623,
+                  "url": "/uploads/thumbnail_vito_developer_avatar_1024_7933d92816.png"
+                }
+              },
+              "hash": "vito_developer_avatar_1024_7933d92816",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 41.82,
+              "url": "/uploads/vito_developer_avatar_1024_7933d92816.png",
+              "previewUrl": null,
+              "provider": "@turbostrapi/strapi-provider-upload-multiprovider",
+              "provider_metadata": null,
+              "createdAt": "2026-09-21T13:21:23.888Z",
+              "updatedAt": "2026-09-21T13:21:23.888Z",
+              "publishedAt": "2026-09-21T13:21:23.888Z",
+              "focalPoint": null
+            }
+          },
+          {
+            "id": 3053,
+            "text": "Legit he will be the best client in the future",
+            "nick": "ᛅ Jalsey",
+            "tag": "axrexx",
+            "avatar": {
+              "id": 75,
+              "documentId": "h0uoe1voexwiidi7b08m5620",
+              "name": "axrexx-avatar-1024.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 256,
+              "height": 256,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_axrexx-avatar-1024.png",
+                  "hash": "thumbnail_axrexx_avatar_1024_72354516b6",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 156,
+                  "height": 156,
+                  "size": 36.89,
+                  "sizeInBytes": 36893,
+                  "url": "/uploads/thumbnail_axrexx_avatar_1024_72354516b6.png"
+                }
+              },
+              "hash": "axrexx_avatar_1024_72354516b6",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 25.25,
+              "url": "/uploads/axrexx_avatar_1024_72354516b6.png",
+              "previewUrl": null,
+              "provider": "@turbostrapi/strapi-provider-upload-multiprovider",
+              "provider_metadata": null,
+              "createdAt": "2026-09-21T13:21:43.425Z",
+              "updatedAt": "2026-09-21T13:21:43.425Z",
+              "publishedAt": "2026-09-21T13:21:43.425Z",
+              "focalPoint": null
+            }
+          },
+          {
+            "id": 3054,
+            "text": "dobry cheat pod wszystko i co fajne visuale nie zabieraja az tyle fps",
+            "nick": "ahermeb",
+            "tag": "agent_spryciula",
+            "avatar": {
+              "id": 76,
+              "documentId": "eolmrkgbthcgdcee1dzktl0s",
+              "name": "agent_spryciula-avatar-1024.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 426,
+              "height": 426,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_agent_spryciula-avatar-1024.png",
+                  "hash": "thumbnail_agent_spryciula_avatar_1024_39636d49af",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 156,
+                  "height": 156,
+                  "size": 57.8,
+                  "sizeInBytes": 57802,
+                  "url": "/uploads/thumbnail_agent_spryciula_avatar_1024_39636d49af.png"
+                }
+              },
+              "hash": "agent_spryciula_avatar_1024_39636d49af",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 88.35,
+              "url": "/uploads/agent_spryciula_avatar_1024_39636d49af.png",
+              "previewUrl": null,
+              "provider": "@turbostrapi/strapi-provider-upload-multiprovider",
+              "provider_metadata": null,
+              "createdAt": "2026-09-21T13:22:02.893Z",
+              "updatedAt": "2026-09-21T13:22:02.893Z",
+              "publishedAt": "2026-09-21T13:22:02.893Z",
+              "focalPoint": null
+            }
+          },
+          {
+            "id": 3055,
+            "text": "legit jeden z lepszych clientow do minecraft",
+            "nick": "xAd3kk_",
+            "tag": "xad3kk_",
+            "avatar": {
+              "id": 77,
+              "documentId": "qtrpwblky4d37p3z788srlx7",
+              "name": "xad3kk_-avatar-1024.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1024,
+              "height": 1024,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_xad3kk_-avatar-1024.png",
+                  "hash": "thumbnail_xad3kk_avatar_1024_48b0f24678",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 156,
+                  "height": 156,
+                  "size": 2.18,
+                  "sizeInBytes": 2179,
+                  "url": "/uploads/thumbnail_xad3kk_avatar_1024_48b0f24678.png"
+                },
+                "large": {
+                  "name": "large_xad3kk_-avatar-1024.png",
+                  "hash": "large_xad3kk_avatar_1024_48b0f24678",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 1000,
+                  "height": 1000,
+                  "size": 27.15,
+                  "sizeInBytes": 27145,
+                  "url": "/uploads/large_xad3kk_avatar_1024_48b0f24678.png"
+                },
+                "small": {
+                  "name": "small_xad3kk_-avatar-1024.png",
+                  "hash": "small_xad3kk_avatar_1024_48b0f24678",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 500,
+                  "height": 500,
+                  "size": 8.93,
+                  "sizeInBytes": 8933,
+                  "url": "/uploads/small_xad3kk_avatar_1024_48b0f24678.png"
+                },
+                "medium": {
+                  "name": "medium_xad3kk_-avatar-1024.png",
+                  "hash": "medium_xad3kk_avatar_1024_48b0f24678",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 750,
+                  "height": 750,
+                  "size": 17.43,
+                  "sizeInBytes": 17427,
+                  "url": "/uploads/medium_xad3kk_avatar_1024_48b0f24678.png"
+                }
+              },
+              "hash": "xad3kk_avatar_1024_48b0f24678",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 6.56,
+              "url": "/uploads/xad3kk_avatar_1024_48b0f24678.png",
+              "previewUrl": null,
+              "provider": "@turbostrapi/strapi-provider-upload-multiprovider",
+              "provider_metadata": null,
+              "createdAt": "2026-09-21T13:22:35.494Z",
+              "updatedAt": "2026-09-21T13:22:35.494Z",
+              "publishedAt": "2026-09-21T13:22:35.494Z",
+              "focalPoint": null
+            }
+          }
+        ],
+        "showcaseVideo": {
+          "id": 109,
+          "videoUrl": "https://www.youtube.com/watch?v=YhxrCdZDK0E",
+          "autoPlay": true,
+          "thumbnail": null,
+          "background": null
+        }
+      },
+      "services": [
+        {
+          "id": 1,
+          "documentId": "uu2dtt57fa053dgttshnrdbc",
+          "name": "1 miesiąc",
+          "price": 50,
+          "oldPrice": null,
+          "days": 30,
+          "sort": 0,
+          "active": true,
+          "createdAt": "2025-01-10T22:07:56.194Z",
+          "updatedAt": "2025-04-17T16:53:50.845Z",
+          "publishedAt": "2025-03-27T16:53:35.289Z",
+          "locale": "pl",
+          "description": "Chcesz przetestować Grim Client? Plan miesięczny to idealne rozwiązanie dla Ciebie!",
+          "highlight": false,
+          "hwidCount": 1,
+          "betaAccess": false,
+          "hwidChanges": 0,
+          "currency": "PLN",
+          "features": [
+            {
+              "id": 6,
+              "text": "Dostęp do Grim Client"
+            },
+            {
+              "id": 7,
+              "text": "Regularne aktualizacje"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "documentId": "tr3c4ouk466kzqjff064pjsw",
+          "name": "Dożywotni",
+          "price": 100,
+          "oldPrice": 150,
+          "days": 0,
+          "sort": 1,
+          "active": true,
+          "createdAt": "2025-01-13T22:03:24.274Z",
+          "updatedAt": "2026-10-31T17:57:55.607Z",
+          "publishedAt": "2026-10-31T17:57:55.314Z",
+          "locale": "pl",
+          "description": "Nie chcesz martwić się odnawianiem subskrypcji? Wybierz opcję dożywotnią i korzystaj z Grim Client na zawsze!",
+          "highlight": true,
+          "hwidCount": 1,
+          "betaAccess": true,
+          "hwidChanges": 2,
+          "currency": "PLN",
+          "features": [
+            {
+              "id": 17,
+              "text": "Dostęp do klienta"
+            },
+            {
+              "id": 18,
+              "text": "Regularne aktualizacje"
+            },
+            {
+              "id": 19,
+              "text": "Dostęp do wersji beta"
+            },
+            {
+              "id": 20,
+              "text": "Priorytetowe wsparcie"
+            },
+            {
+              "id": 21,
+              "text": "Kontakt z developerem"
+            },
+            {
+              "id": 22,
+              "text": "Dwie darmowe zmiany HWID"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "documentId": "ivnkbd8fstio5coxwzw6126n",
+          "name": "3 miesiące",
+          "price": 80,
+          "oldPrice": 100,
+          "days": 90,
+          "sort": 2,
+          "active": true,
+          "createdAt": "2025-01-13T22:15:29.828Z",
+          "updatedAt": "2026-10-31T17:58:03.587Z",
+          "publishedAt": "2026-10-31T17:58:03.446Z",
+          "locale": "pl",
+          "description": "Zyskaj dłuższy dostęp w korzystnej cenie i ciesz się wszystkimi funkcjami Grim Client przez 3 miesiące!",
+          "highlight": false,
+          "hwidCount": 1,
+          "betaAccess": true,
+          "hwidChanges": 0,
+          "currency": "PLN",
+          "features": [
+            {
+              "id": 11,
+              "text": "Dostęp do Grim Client"
+            },
+            {
+              "id": 12,
+              "text": "Regularne aktualizacje"
+            },
+            {
+              "id": 13,
+              "text": "Dostęp do wersji beta"
+            }
+          ]
+        }
+      ],
+      "prices": {
+        "uu2dtt57fa053dgttshnrdbc": {
+          "PLN": 50,
+          "USD": 15
+        },
+        "tr3c4ouk466kzqjff064pjsw": {
+          "PLN": 100,
+          "USD": 27.5
+        },
+        "ivnkbd8fstio5coxwzw6126n": {
+          "PLN": 80,
+          "USD": 22.5
+        },
+        "_hwid": {
+          "PLN": 20,
+          "USD": 5
+        }
+      }
+    },
+    "__N_SSG": true
+  },
+  "page": "/",
+  "query": {},
+  "buildId": "qGwJ2KYIlLj8ghC92z9ja",
+  "isFallback": false,
+  "isExperimentalCompile": false,
+  "gsp": true,
+  "locale": "pl",
+  "locales": [
+    "en",
+    "pl"
+  ],
+  "defaultLocale": "en",
+  "scriptLoader": []
+}

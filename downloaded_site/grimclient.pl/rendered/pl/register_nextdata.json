@@ -1,0 +1,1026 @@
+{
+  "props": {
+    "pageProps": {
+      "_nextI18Next": {
+        "initialI18nStore": {
+          "pl": {
+            "auth": {
+              "login": {
+                "meta": {
+                  "title": "Logowanie"
+                },
+                "header": {
+                  "title_h1": "Witaj w panelu Grim Client",
+                  "subtitle": "Zaloguj się, aby móc zarządzać swoimi licencjami"
+                },
+                "form": {
+                  "input": {
+                    "email": {
+                      "label": "E-mail",
+                      "placeholder": ""
+                    },
+                    "password": {
+                      "label": "Hasło",
+                      "placeholder": ""
+                    },
+                    "remember": {
+                      "label": "Zapamiętaj mnie"
+                    }
+                  },
+                  "login_button": "Zaloguj się",
+                  "links": {
+                    "forgot_password": "Nie pamiętasz hasła?",
+                    "create_account": "Nie masz konta? <2><0>Zarejestruj się</0></2>"
+                  }
+                },
+                "auth_response": {
+                  "info": {
+                    "login": "Zalogowano!",
+                    "activation": "Konto zostało aktywowane. Możesz się zalogować.",
+                    "password_changed": "Twoje hasło zostało zmienione. Zaloguj się.",
+                    "default": "Operacja wykonana pomyślnie.",
+                    "account_linked": "Pomyślnie połączono konto Discord.",
+                    "email_changed": "Twoje adres e-mail został zmieniony.",
+                    "two_factor_enabled": "Weryfikacja dwuetapowa została włączona na Twoim koncie."
+                  },
+                  "error": {
+                    "activation": "Token aktywacji jest niepoprawny lub konto zostało już aktywowane.",
+                    "oauth_signin": "Spróbuj zalogować się przy użyciu innego konta.",
+                    "oauth_callback": "Spróbuj zalogować się przy użyciu innego konta.",
+                    "oauth_create_account": "Spróbuj zalogować się przy użyciu innego konta.",
+                    "email_create_account": "Spróbuj zalogować się przy użyciu innego konta.",
+                    "callback": "Spróbuj zalogować się przy użyciu innego konta.",
+                    "oauth_account_not_linked": "Aby potwierdzić swoją tożsamość, zaloguj się przy użyciu tego samego konta, które zostało użyte przy rejestracji.",
+                    "email_signin": "Wiadomość e-mail nie mogła zostać wysłana.",
+                    "credentials_signin": "Logowanie nie powiodło się. Sprawdź, czy podane dane są poprawne.",
+                    "session_required": "Zaloguj się, aby uzyskać dostęp do tej strony.",
+                    "default": "Logowanie się nie powiodło.",
+                    "account_already_linked": "To konto jest juz połączone z profilem innego użytkownika.",
+                    "account_not_linked": "Nie udało się połączyć konta, spróbuj ponownie.",
+                    "invalid_token": "Brak akcji do potwierdzenia lub została już wykonana.",
+                    "email_change": "Nie udało się zmienić adresu e-mail, spróbuj ponownie.",
+                    "two_factor_enable": "Nie udało się włączyć weryfikacji dwuetapowej, spróbuj ponownie."
+                  }
+                }
+              },
+              "register": {
+                "meta": {
+                  "title": "Rejestracja"
+                },
+                "header": {
+                  "title_h1": "Witaj w panelu Grim Client",
+                  "subtitle": "Stwórz konto, aby móc zarządzać licencjami!"
+                },
+                "form": {
+                  "input": {
+                    "name": {
+                      "label": "Nazwa użytkownika",
+                      "placeholder": ""
+                    },
+                    "email": {
+                      "label": "E-mail",
+                      "placeholder": ""
+                    },
+                    "password": {
+                      "label": "Hasło",
+                      "placeholder": ""
+                    },
+                    "confirm": {
+                      "label": "Powtórz hasło",
+                      "placeholder": ""
+                    }
+                  },
+                  "terms_checkbox": "Akceptuję <2>regulamin</2> oraz <6>politykę prywatności</6>.",
+                  "register_button": "Zarejestruj się",
+                  "links": {
+                    "already_have_account": "Masz już konto? <2><0>Zaloguj się</0></2>"
+                  }
+                },
+                "auth_response": {
+                  "validation": {
+                    "name_too_short": "Nazwa użytkownika nie może być krótsza niż 3 znaki.",
+                    "name_too_long": "Nazwa użytkownika nie może być dłuższa niż 24 znaki.",
+                    "name_invalid": "Nazwa użytkownika musi być alfanumeryczna.",
+                    "invalid_email": "Podany adres e-mail jest nieprawidłowy.",
+                    "email_too_short": "Adres e-mail nie może być krótszy niż 6 znaków.",
+                    "email_too_long": "Adres e-mail nie może być dłuższy niż 48 znaków.",
+                    "password_too_short": "Minimalna długość hasła to 8 znaków.",
+                    "password_too_long": "Maksymalna długość hasła to 256 znaków.",
+                    "passwords_dont_match": "Podane hasła się nie zgadzają."
+                  },
+                  "code": {
+                    "no_data": "Dane nie zostały przesłane.",
+                    "internal_error": "Błąd wewnętrzny.",
+                    "email_taken": "Podany adres e-mail jest już zajęty.",
+                    "name_taken": "Podana nazwa użytkownika jest już zajęta.",
+                    "registration_error": "Wystąpił błąd podczas rejestracji.",
+                    "success": "Zarejestrowano pomyślnie, na podany adres e-mail wysłany został link aktywacyjny."
+                  }
+                }
+              },
+              "recover": {
+                "meta": {
+                  "title": "Odzyskiwanie konta"
+                },
+                "header": {
+                  "title_h1": "Witaj w panelu Grim Client",
+                  "subtitle": "Skorzystaj z formularza aby odzyskać dostęp do konta!"
+                },
+                "form": {
+                  "input": {
+                    "email": {
+                      "label": "E-mail",
+                      "placeholder": ""
+                    }
+                  },
+                  "recover_button": "Odzyskaj konto",
+                  "links": {
+                    "already_have_account": "Masz już konto? <2><0>Zaloguj się</0></2>",
+                    "forgot_email": "Nie pamiętasz adresu e-mail? <2><0>Przypomnij e-mail</0></2>"
+                  }
+                },
+                "auth_response": {
+                  "validation": {
+                    "invalid_email": "Podany adres e-mail jest nieprawidłowy.",
+                    "email_too_short": "Adres e-mail nie może być krótszy niż 6 znaków.",
+                    "email_too_long": "Adres e-mail nie może być dłuższy niż 48 znaków."
+                  },
+                  "code": {
+                    "no_data": "Dane nie zostały przesłane.",
+                    "internal_error": "Błąd wewnętrzny.",
+                    "email_not_found": "Konto o podanym adresie e-mail nie istnieje.",
+                    "recovery_error": "Wystąpił błąd podczas odzyskiwania konta.",
+                    "success": "Rozpoczęto procedurę odzyskiwania konta, na podany adres e-mail wysłany został link do zmiany hasła."
+                  }
+                }
+              },
+              "recover_email": {
+                "meta": {
+                  "title": "Przypomnienie adresu e-mail"
+                },
+                "header": {
+                  "title_h1": "Witaj w panelu Grim Client",
+                  "subtitle": "Podaj nazwę użytkownika, aby przypomnieć adres e-mail!"
+                },
+                "form": {
+                  "input": {
+                    "name": {
+                      "label": "Nazwa użytkownika",
+                      "placeholder": ""
+                    }
+                  },
+                  "recover_button": "Przypomnij e-mail",
+                  "links": {
+                    "remembered_email": "Pamiętasz adres e-mail? <2><0>Zresetuj hasło</0></2>",
+                    "already_have_account": "Masz już konto? <2><0>Zaloguj się</0></2>"
+                  }
+                },
+                "auth_response": {
+                  "validation": {
+                    "name_too_short": "Nazwa użytkownika nie może być krótsza niż 3 znaki.",
+                    "name_too_long": "Nazwa użytkownika nie może być dłuższa niż 24 znaki.",
+                    "name_invalid": "Nazwa użytkownika zawiera niedozwolone znaki."
+                  },
+                  "code": {
+                    "no_data": "Dane nie zostały przesłane.",
+                    "internal_error": "Błąd wewnętrzny.",
+                    "user_not_found": "Konto o podanej nazwie użytkownika nie istnieje.",
+                    "recovery_error": "Wystąpił błąd podczas przypominania adresu e-mail.",
+                    "success": "Jeśli konto istnieje, wiadomość przypominająca została wysłana na powiązany adres e-mail."
+                  }
+                }
+              },
+              "password_reset": {
+                "meta": {
+                  "title": "Resetowanie hasła"
+                },
+                "header": {
+                  "title_h1": "Tutaj możesz ustawić <br/>swoje nowe <4>hasło</4>"
+                },
+                "form": {
+                  "input": {
+                    "password": {
+                      "label": "Nowe hasło",
+                      "placeholder": ""
+                    },
+                    "confirm": {
+                      "label": "Powtórz hasło",
+                      "placeholder": ""
+                    }
+                  },
+                  "reset_button": "Ustaw hasło",
+                  "links": {
+                    "already_have_account": "Masz już konto? <2><0>Zaloguj się</0></2>"
+                  }
+                },
+                "auth_response": {
+                  "validation": {
+                    "invalid_token": "Token jest nieprawidłowy.",
+                    "password_too_short": "Minimalna długość hasła to 8 znaków.",
+                    "password_too_long": "Maksymalna długość hasła to 256 znaków.",
+                    "passwords_dont_match": "Podane hasła się nie zgadzają."
+                  },
+                  "code": {
+                    "no_data": "Dane nie zostały przesłane.",
+                    "internal_error": "Błąd wewnętrzny.",
+                    "token_not_found": "Token zmiany hasła wygasł lub został już wykorzystany.",
+                    "reset_error": "Wystąpił błąd podczas uzyskiwania informacji o koncie.",
+                    "password_correct": "Podane hasło jest takie samo jak aktualne.",
+                    "password_change_error": "Wystąpił błąd podczas ustawiania nowego hasła.",
+                    "success": "Hasło zostało zmienione pomyślnie, możesz się teraz zalogować."
+                  }
+                }
+              },
+              "otp_verify": {
+                "meta": {
+                  "title": "2FA"
+                },
+                "header": {
+                  "title_h1": "Aby kontynować, wprowadź kod<br/>wygenerowany przez <3>aplikację</3>"
+                },
+                "form": {
+                  "input": {
+                    "code": {
+                      "label": "Kod z aplikacji",
+                      "placeholder": ""
+                    },
+                    "backup_code": {
+                      "label": "Kod zapasowy",
+                      "placeholder": "XXXXX-XXXXX"
+                    }
+                  },
+                  "use_backup_code": "Użyj kodu zapasowego",
+                  "use_authenticator_code": "Użyj kodu z aplikacji",
+                  "confirm_button": "Potwierdź"
+                },
+                "auth_response": {
+                  "validation": {
+                    "code_invalid": "Wpisz poprawny kod.",
+                    "wrong_otp_code": "Podany kod jest błędny."
+                  },
+                  "code": {
+                    "not_logged_in": "Nie zalogowano.",
+                    "internal_error": "Błąd wewnętrzny.",
+                    "otp_not_enabled": "Twoje konto nie posiada logowania dwuetapowego.",
+                    "otp_verify_error": "Wystąpił błąd podczas weryfikacji.",
+                    "success": "Pomyślnie zweryfikowano."
+                  }
+                }
+              },
+              "confirm_device": {
+                "meta": {
+                  "title": "Potwierdź logowanie"
+                },
+                "header": {
+                  "title_h1": "Potwierdź logowanie z nowego urządzenia",
+                  "subtitle": "Wysłaliśmy Ci wiadomość e-mail. Kliknij zawarty w niej link, aby dokończyć logowanie - ta strona odświeży się automatycznie."
+                }
+              },
+              "user_details_change": {
+                "auth_response": {
+                  "validation": {
+                    "name_too_short": "Nazwa użytkownika nie może być krótsza niż 3 znaki.",
+                    "name_too_long": "Nazwa użytkownika nie może być dłuższa niż 24 znaki.",
+                    "name_invalid": "Nazwa użytkownika musi być alfanumeryczna.",
+                    "invalid_email": "Podany adres e-mail jest nieprawidłowy.",
+                    "email_too_short": "Adres e-mail nie może być krótszy niż 6 znaków.",
+                    "email_too_long": "Adres e-mail nie może być dłuższy niż 48 znaków.",
+                    "password_too_short": "Minimalna długość hasła to 8 znaków.",
+                    "password_too_long": "Maksymalna długość hasła to 256 znaków.",
+                    "wrong_password": "Podane hasło jest nieprawidłowe.",
+                    "email_same_as_current": "Podany adres e-mail jest taki sam jak aktualny."
+                  },
+                  "code": {
+                    "no_data": "Dane nie zostały przesłane.",
+                    "not_logged_in": "Nie zalogowano.",
+                    "internal_error": "Błąd wewnętrzny.",
+                    "invalid_user": "Nowy adres e-mail jest nieprawidłowy.",
+                    "email_change_error": "Wystąpił błąd podczas zmiany adresu e-mail.",
+                    "update_error": "Wystąpił błąd podczas zapisywania danych.",
+                    "details_success": "Twoje dane zostały zapisane.",
+                    "email_success": "Aby potwierdzić zmianę, kliknij w link wysłany na Twój aktualny adres e-mail."
+                  }
+                }
+              },
+              "password_change": {
+                "auth_response": {
+                  "validation": {
+                    "password_too_short": "Minimalna długość hasła to 8 znaków.",
+                    "password_too_long": "Maksymalna długość hasła to 256 znaków.",
+                    "passwords_dont_match": "Podane hasła się nie zgadzają.",
+                    "password_same_as_current": "Podane hasło jest takie samo jak aktualne.",
+                    "wrong_password": "Podane hasło jest nieprawidłowe."
+                  },
+                  "code": {
+                    "no_data": "Dane nie zostały przesłane.",
+                    "not_logged_in": "Nie zalogowano.",
+                    "internal_error": "Błąd wewnętrzny.",
+                    "invalid_user": "Nieprawidłowy użytkownik.",
+                    "token_not_found": "Token zmiany hasła wygasł lub został już wykorzystany.",
+                    "password_change_error": "Wystąpił błąd podczas zmiany hasła.",
+                    "success": "Twoje hasło zostało zmienione."
+                  }
+                }
+              },
+              "otp_setup": {
+                "auth_response": {
+                  "validation": {
+                    "code_invalid": "Wpisz poprawny kod.",
+                    "wrong_otp_code": "Podany kod jest błędny.",
+                    "password_too_short": "Podane hasło jest nieprawidłowe.",
+                    "password_too_long": "Maksymalna długość hasła to 256 znaków.",
+                    "wrong_password": "Podane hasło jest nieprawidłowe."
+                  },
+                  "code": {
+                    "not_logged_in": "Nie zalogowano.",
+                    "internal_error": "Błąd wewnętrzny.",
+                    "otp_already_enabled": "To konto posiada już logowanie dwuetapowe.",
+                    "otp_generation_error": "Wystąpił błąd podczas generowania tokenu.",
+                    "otp_setup_error": "Wystąpił błąd w trakcie konfigurowania.",
+                    "success": "Pomyślnie skonfigurowano.",
+                    "confirmation_sent": "Wysłaliśmy link potwierdzający na Twój adres e-mail. Kliknij w niego, aby włączyć weryfikację dwuetapową."
+                  }
+                }
+              },
+              "otp_backup_codes": {
+                "auth_response": {
+                  "validation": {
+                    "password_too_short": "Podane hasło jest nieprawidłowe.",
+                    "password_too_long": "Maksymalna długość hasła to 256 znaków.",
+                    "wrong_password": "Podane hasło jest nieprawidłowe."
+                  },
+                  "code": {
+                    "not_logged_in": "Nie zalogowano.",
+                    "internal_error": "Błąd wewnętrzny.",
+                    "otp_not_enabled": "To konto nie posiada logowania dwuetapowego.",
+                    "otp_backup_codes_error": "Wystąpił błąd podczas generowania kodów zapasowych.",
+                    "success": "Pomyślnie wygenerowano kody zapasowe."
+                  }
+                }
+              },
+              "otp_cancel": {
+                "auth_response": {
+                  "validation": {
+                    "code_invalid": "Wpisz poprawny kod.",
+                    "wrong_otp_code": "Podany kod jest błędny.",
+                    "password_too_short": "Podane hasło jest nieprawidłowe.",
+                    "password_too_long": "Maksymalna długość hasła to 256 znaków.",
+                    "wrong_password": "Podane hasło jest nieprawidłowe."
+                  },
+                  "code": {
+                    "not_logged_in": "Nie zalogowano.",
+                    "internal_error": "Błąd wewnętrzny.",
+                    "otp_not_enabled": "To konto nie posiada logowania dwuetapowego.",
+                    "otp_cancel_error": "Wystąpił błąd podczas wyłączania 2FA.",
+                    "success": "Pomyślnie wyłączono logowanie dwuetapowe."
+                  }
+                }
+              },
+              "unlink_account": {
+                "auth_response": {
+                  "code": {
+                    "no_data": "Dane nie zostały przesłane.",
+                    "not_logged_in": "Nie zalogowano.",
+                    "account_not_linked": "To konto nie jest połączone z Twoim profilem.",
+                    "internal_error": "Błąd wewnętrzny.",
+                    "success": "Pomyślnie odłączono konto."
+                  }
+                }
+              }
+            },
+            "common": {
+              "date_locale": "pl-PL",
+              "toast": {
+                "error_title": "Błąd"
+              },
+              "timer": {
+                "days": "Dni",
+                "hours": "Godz",
+                "minutes": "Min",
+                "seconds": "Sek"
+              },
+              "cookie_info": {
+                "title": "Informacje o ciasteczkach",
+                "content": "Dbamy o Twoje dane i używamy plików cookie wyłącznie w celu zapewnienia funkcjonalności i komfortu korzystania z serwisu. Używając tej witryny akceptujesz naszą <2>politykę prywatności</2>.",
+                "accept_button": "Zgadzam się"
+              },
+              "navbar": {
+                "logo_name": "GrimClient.eu",
+                "navigation_links": {
+                  "home": "Strona główna",
+                  "purchase": "Zakup",
+                  "showcase": "Funkcje",
+                  "faq": "FAQ"
+                },
+                "account": {
+                  "logged_as": "Zalogowano jako",
+                  "links": {
+                    "dashboard": "Moje licencje",
+                    "settings": "Ustawienia",
+                    "faq": "FAQ",
+                    "billing": "Historia płatności",
+                    "support": "Wsparcie",
+                    "logout": "Wyloguj się"
+                  }
+                },
+                "login_link": "Zaloguj się"
+              },
+              "footer": {
+                "logo_name": "GrimClient.eu",
+                "system_status": "Wszystkie systemy sprawne",
+                "sitemap": {
+                  "title": "Mapa strony",
+                  "links": {
+                    "index": "Strona główna",
+                    "purchase": "Zakup",
+                    "showcase": "Funkcje",
+                    "faq": "Najczęstsze pytania"
+                  }
+                },
+                "social_media": {
+                  "title": "Społeczność",
+                  "links": {
+                    "discord": {
+                      "name": "Discord",
+                      "href": "https://discord.gg/grimclient"
+                    },
+                    "facebook": {
+                      "name": "",
+                      "href": ""
+                    },
+                    "youtube": {
+                      "name": "YouTube",
+                      "href": "https://www.youtube.com/@grim.client/featured"
+                    }
+                  }
+                },
+                "contact": {
+                  "title": "Kontakt",
+                  "links": {
+                    "contact": "contact@grimclient.pl",
+                    "terms": "Regulamin",
+                    "privacy": "Polityka prywatności"
+                  }
+                },
+                "copyright": {
+                  "title": "© GrimClient.eu | All rights reserved.",
+                  "description": "Grimclient nie jest powiązany z Mojang AB, działalność komercyjna firmy jest zgodna z polityką Mojang AB."
+                }
+              },
+              "dashboard_navigation": {
+                "title": "Grim Client",
+                "links": {
+                  "home": "Moje licencje",
+                  "billing": "Historia płatności",
+                  "settings": "Ustawienia",
+                  "faq": "FAQ (Poradnik)",
+                  "support": "Wsparcie"
+                }
+              },
+              "ban_modal": {
+                "title": "Konto zawieszone",
+                "description": "Twoje konto zostało zbanowane. Jeśli uważasz, że to błąd, skontaktuj się z nami.",
+                "reason_label": "Powód",
+                "no_reason": "Nie podano powodu."
+              }
+            }
+          },
+          "en": {
+            "auth": {
+              "login": {
+                "meta": {
+                  "title": "Login"
+                },
+                "header": {
+                  "title_h1": "Welcome to the Grim Client dashboard",
+                  "subtitle": "Login to manage your licenses"
+                },
+                "form": {
+                  "input": {
+                    "email": {
+                      "label": "E-mail",
+                      "placeholder": ""
+                    },
+                    "password": {
+                      "label": "Password",
+                      "placeholder": ""
+                    },
+                    "remember": {
+                      "label": "Remember me"
+                    }
+                  },
+                  "login_button": "Login",
+                  "links": {
+                    "forgot_password": "Forgot password?",
+                    "create_account": "Don't have an account? <2><0>Create one</0></2>"
+                  }
+                },
+                "auth_response": {
+                  "info": {
+                    "login": "Logged in!",
+                    "activation": "Account activated. You can now log in.",
+                    "password_changed": "Your password has been changed. Please log in.",
+                    "default": "Operation completed successfully.",
+                    "account_linked": "Successfully linked your Discord account.",
+                    "email_changed": "Your e-mail address has been changed.",
+                    "two_factor_enabled": "Two-factor authentication has been enabled on your account."
+                  },
+                  "error": {
+                    "activation": "Activation token is invalid or the account has already been activated.",
+                    "oauth_signin": "Try signing in with another account.",
+                    "oauth_callback": "Try signing in with another account.",
+                    "oauth_create_account": "Try signing in with another account.",
+                    "email_create_account": "Try signing in with another account.",
+                    "callback": "Try signing in with another account.",
+                    "oauth_account_not_linked": "To confirm your identity, sign in with the same account you used previously.",
+                    "email_signin": "Email verification message cannot be sent.",
+                    "credentials_signin": "Login failed. Verify that the provided credentials are correct.",
+                    "session_required": "Sign in to access this page.",
+                    "default": "Failed to sign in.",
+                    "account_already_linked": "This account is already linked to another user profile.",
+                    "account_not_linked": "Failed to link the account, please try again.",
+                    "invalid_token": "No action to confirm or it is already completed.",
+                    "email_change": "Failed to change the e-mail address, please try again.",
+                    "two_factor_enable": "Failed to enable two-factor authentication, please try again."
+                  }
+                }
+              },
+              "register": {
+                "meta": {
+                  "title": "Registration"
+                },
+                "header": {
+                  "title_h1": "Welcome to the Grim Client dashboard",
+                  "subtitle": "Create an account to manage your licenses!"
+                },
+                "form": {
+                  "input": {
+                    "name": {
+                      "label": "Username",
+                      "placeholder": ""
+                    },
+                    "email": {
+                      "label": "E-mail",
+                      "placeholder": ""
+                    },
+                    "password": {
+                      "label": "Password",
+                      "placeholder": ""
+                    },
+                    "confirm": {
+                      "label": "Confirm password",
+                      "placeholder": ""
+                    }
+                  },
+                  "terms_checkbox": "I accept the <2>terms of service</2> and <6>privacy policy</6>.",
+                  "register_button": "Register",
+                  "links": {
+                    "already_have_account": "Already have an account? <2><0>Log in</0></2>"
+                  }
+                },
+                "auth_response": {
+                  "validation": {
+                    "name_too_short": "Username cannot be shorter than 3 characters.",
+                    "name_too_long": "Username cannot be longer than 24 characters.",
+                    "name_invalid": "Username must be alphanumeric.",
+                    "invalid_email": "Invalid e-mail address.",
+                    "email_too_short": "E-mail address must be at least 6 characters long.",
+                    "email_too_long": "E-mail address must be at most 48 characters long.",
+                    "password_too_short": "Password must be at least 8 characters long.",
+                    "password_too_long": "Password must be at most 256 characters long.",
+                    "passwords_dont_match": "Passwords do not match."
+                  },
+                  "code": {
+                    "no_data": "Data was not sent.",
+                    "internal_error": "Internal server error.",
+                    "email_taken": "This e-mail address is already taken.",
+                    "name_taken": "This username is already taken.",
+                    "registration_error": "An error occurred during registration.",
+                    "success": "Registration successful, an activation e-mail has been sent to the specified address."
+                  }
+                }
+              },
+              "recover": {
+                "meta": {
+                  "title": "Account recovery"
+                },
+                "header": {
+                  "title_h1": "Welcome to the Grim Client dashboard",
+                  "subtitle": "Use the form below to recover access to your account!"
+                },
+                "form": {
+                  "input": {
+                    "email": {
+                      "label": "E-mail",
+                      "placeholder": ""
+                    }
+                  },
+                  "recover_button": "Recover account",
+                  "links": {
+                    "already_have_account": "Already have an account? <2><0>Log in</0></2>",
+                    "forgot_email": "Don't remember your e-mail address? <2><0>Recover e-mail</0></2>"
+                  }
+                },
+                "auth_response": {
+                  "validation": {
+                    "invalid_email": "Invalid e-mail address.",
+                    "email_too_short": "E-mail address must be at least 6 characters long.",
+                    "email_too_long": "E-mail address must be at most 48 characters long."
+                  },
+                  "code": {
+                    "no_data": "Data was not sent.",
+                    "internal_error": "Internal server error.",
+                    "email_not_found": "Account with the specified e-mail address was not found.",
+                    "recovery_error": "An error occurred during account recovery.",
+                    "success": "Account recovery initiated, an e-mail has been sent to the specified address."
+                  }
+                }
+              },
+              "recover_email": {
+                "meta": {
+                  "title": "Recover e-mail address"
+                },
+                "header": {
+                  "title_h1": "Welcome to the Grim Client dashboard",
+                  "subtitle": "Enter your username to recover your e-mail address!"
+                },
+                "form": {
+                  "input": {
+                    "name": {
+                      "label": "Username",
+                      "placeholder": ""
+                    }
+                  },
+                  "recover_button": "Recover e-mail",
+                  "links": {
+                    "remembered_email": "Remember your e-mail address? <2><0>Reset password</0></2>",
+                    "already_have_account": "Already have an account? <2><0>Log in</0></2>"
+                  }
+                },
+                "auth_response": {
+                  "validation": {
+                    "name_too_short": "Username must be at least 3 characters long.",
+                    "name_too_long": "Username must be at most 24 characters long.",
+                    "name_invalid": "Username contains invalid characters."
+                  },
+                  "code": {
+                    "no_data": "Data was not sent.",
+                    "internal_error": "Internal server error.",
+                    "user_not_found": "Account with the specified username was not found.",
+                    "recovery_error": "An error occurred during e-mail recovery.",
+                    "success": "If the account exists, a reminder e-mail has been sent to the associated address."
+                  }
+                }
+              },
+              "password_reset": {
+                "meta": {
+                  "title": "Password reset"
+                },
+                "header": {
+                  "title_h1": "Here you can set your new <br/><4>password</4>"
+                },
+                "form": {
+                  "input": {
+                    "password": {
+                      "label": "New password",
+                      "placeholder": ""
+                    },
+                    "confirm": {
+                      "label": "Repeat your new password",
+                      "placeholder": ""
+                    }
+                  },
+                  "reset_button": "Save",
+                  "links": {
+                    "already_have_account": "Already have an account? <2><0>Log in</0></2>"
+                  }
+                },
+                "auth_response": {
+                  "validation": {
+                    "invalid_token": "Invalid token.",
+                    "password_too_short": "Password must be at least 8 characters long.",
+                    "password_too_long": "Password must be at most 256 characters long.",
+                    "passwords_dont_match": "Passwords do not match."
+                  },
+                  "code": {
+                    "no_data": "Data was not sent.1",
+                    "internal_error": "Internal server error.",
+                    "token_not_found": "Token expired or has already been used.",
+                    "reset_error": "An error occurred during retrieving account details.",
+                    "password_correct": "The specified password is the same as the current one.",
+                    "password_change_error": "An error occurred during password change.",
+                    "success": "Your password has been changed, you can now log in."
+                  }
+                }
+              },
+              "otp_verify": {
+                "meta": {
+                  "title": "2FA"
+                },
+                "header": {
+                  "title_h1": "To continue, enter the code<br/>generated by your <3>authenticator app</3>"
+                },
+                "form": {
+                  "input": {
+                    "code": {
+                      "label": "Authenticator code",
+                      "placeholder": ""
+                    },
+                    "backup_code": {
+                      "label": "Backup code",
+                      "placeholder": "XXXXX-XXXXX"
+                    }
+                  },
+                  "use_backup_code": "Use a backup code",
+                  "use_authenticator_code": "Use the authenticator code",
+                  "confirm_button": "Confirm"
+                },
+                "auth_response": {
+                  "validation": {
+                    "code_invalid": "The code is invalid.",
+                    "wrong_otp_code": "The code is incorrect."
+                  },
+                  "code": {
+                    "not_logged_in": "Not logged in.",
+                    "internal_error": "Internal server error.",
+                    "otp_not_enabled": "Your account does not have 2FA enabled.",
+                    "otp_verify_error": "An error occurred during verification.",
+                    "success": "Verification successful."
+                  }
+                }
+              },
+              "confirm_device": {
+                "meta": {
+                  "title": "Confirm login"
+                },
+                "header": {
+                  "title_h1": "Confirm login from a new device",
+                  "subtitle": "We've sent you an e-mail. Click the link inside to finish signing in - this page will refresh automatically."
+                }
+              },
+              "user_details_change": {
+                "auth_response": {
+                  "validation": {
+                    "name_too_short": "Username cannot be shorter than 3 characters.",
+                    "name_too_long": "Username cannot be longer than 24 characters.",
+                    "name_invalid": "Username must be alphanumeric.",
+                    "invalid_email": "Invalid e-mail address.",
+                    "email_too_short": "E-mail address must be at least 6 characters long.",
+                    "email_too_long": "E-mail address must be at most 48 characters long.",
+                    "password_too_short": "Password must be at least 8 characters long.",
+                    "password_too_long": "Password must be at most 256 characters long.",
+                    "wrong_password": "The specified password is incorrect.",
+                    "email_same_as_current": "The specified e-mail address is the same as the current one."
+                  },
+                  "code": {
+                    "no_data": "Data was not sent.",
+                    "not_logged_in": "Not logged in.",
+                    "internal_error": "Internal server error.",
+                    "invalid_user": "Invalid user.",
+                    "email_change_error": "An error occurred during e-mail change.",
+                    "update_error": "An error occurred during account details update.",
+                    "details_success": "Account details have been updated.",
+                    "email_success": "To confirm the change, click on the link sent to your current e-mail address."
+                  }
+                }
+              },
+              "password_change": {
+                "auth_response": {
+                  "validation": {
+                    "password_too_short": "Password must be at least 8 characters long.",
+                    "password_too_long": "Password must be at most 256 characters long.",
+                    "passwords_dont_match": "Passwords do not match.",
+                    "password_same_as_current": "The provided password is the same as the current one.",
+                    "wrong_password": "The provided password is incorrect."
+                  },
+                  "code": {
+                    "no_data": "Data was not sent.",
+                    "not_logged_in": "Not logged in.",
+                    "internal_error": "Internal server error.",
+                    "invalid_user": "Invalid user.",
+                    "token_not_found": "Token expired or has already been used.",
+                    "password_change_error": "An error occurred during password change.",
+                    "success": "Your password has been changed."
+                  }
+                }
+              },
+              "otp_setup": {
+                "auth_response": {
+                  "validation": {
+                    "code_invalid": "The code is invalid.",
+                    "wrong_otp_code": "The code is incorrect.",
+                    "password_too_short": "The provided password is incorrect.",
+                    "password_too_long": "Password must be at most 256 characters long.",
+                    "wrong_password": "The provided password is incorrect."
+                  },
+                  "code": {
+                    "not_logged_in": "Not logged in.",
+                    "internal_error": "Internal server error.",
+                    "otp_already_enabled": "This account already has 2FA enabled.",
+                    "otp_generation_error": "An error occurred during token generation.",
+                    "otp_setup_error": "An error occurred during configuration.",
+                    "success": "2FA configuration successful.",
+                    "confirmation_sent": "We sent a confirmation link to your e-mail address. Click it to enable two-factor authentication."
+                  }
+                }
+              },
+              "otp_backup_codes": {
+                "auth_response": {
+                  "validation": {
+                    "password_too_short": "The provided password is incorrect.",
+                    "password_too_long": "Password must be at most 256 characters long.",
+                    "wrong_password": "The provided password is incorrect."
+                  },
+                  "code": {
+                    "not_logged_in": "Not logged in.",
+                    "internal_error": "Internal server error.",
+                    "otp_not_enabled": "This account does not have 2FA enabled.",
+                    "otp_backup_codes_error": "An error occurred while generating backup codes.",
+                    "success": "Backup codes generated successfully."
+                  }
+                }
+              },
+              "otp_cancel": {
+                "auth_response": {
+                  "validation": {
+                    "code_invalid": "The code is invalid.",
+                    "wrong_otp_code": "The code is incorrect.",
+                    "password_too_short": "The provided password is incorrect.",
+                    "password_too_long": "Password must be at most 256 characters long.",
+                    "wrong_password": "The provided password is incorrect."
+                  },
+                  "code": {
+                    "not_logged_in": "Not logged in.",
+                    "internal_error": "Internal server error.",
+                    "otp_not_enabled": "This account does not have 2FA enabled.",
+                    "otp_cancel_error": "An error occurred when disabling 2FA.",
+                    "success": "2FA disabled successfully."
+                  }
+                }
+              },
+              "unlink_account": {
+                "auth_response": {
+                  "code": {
+                    "no_data": "Data was not sent.",
+                    "not_logged_in": "Not logged in.",
+                    "account_not_linked": "This account is not linked to your profile.",
+                    "internal_error": "Internal server error.",
+                    "success": "Successfully unlinked your account."
+                  }
+                }
+              }
+            },
+            "common": {
+              "date_locale": "en-US",
+              "toast": {
+                "error_title": "Error"
+              },
+              "timer": {
+                "days": "Days",
+                "hours": "Hrs",
+                "minutes": "Min",
+                "seconds": "Sec"
+              },
+              "cookie_info": {
+                "title": "Information on cookies",
+                "content": "We care about your data and use cookies solely to ensure functionality and enhance your experience on the site. By using this website, you accept our <2>privacy policy</2>.",
+                "accept_button": "Accept"
+              },
+              "navbar": {
+                "logo_name": "GrimClient.eu",
+                "navigation_links": {
+                  "home": "Home",
+                  "purchase": "Purchase",
+                  "showcase": "Showcase",
+                  "faq": "FAQ"
+                },
+                "account": {
+                  "logged_as": "Logged in as",
+                  "links": {
+                    "dashboard": "My licenses",
+                    "settings": "Settings",
+                    "faq": "FAQ",
+                    "billing": "Billing history",
+                    "support": "Support",
+                    "logout": "Logout"
+                  }
+                },
+                "login_link": "Log in"
+              },
+              "footer": {
+                "logo_name": "GrimClient.eu",
+                "system_status": "All systems operational",
+                "sitemap": {
+                  "title": "Sitemap",
+                  "links": {
+                    "index": "Home",
+                    "purchase": "Purchase",
+                    "showcase": "Showcase",
+                    "faq": "FAQ"
+                  }
+                },
+                "social_media": {
+                  "title": "Social media",
+                  "links": {
+                    "discord": {
+                      "name": "Discord",
+                      "href": "https://discord.gg/grimclient"
+                    },
+                    "facebook": {
+                      "name": "",
+                      "href": ""
+                    },
+                    "youtube": {
+                      "name": "YouTube",
+                      "href": "https://www.youtube.com/@grim.client/featured"
+                    }
+                  }
+                },
+                "contact": {
+                  "title": "Contact",
+                  "links": {
+                    "contact": "contact@grimclient.pl",
+                    "terms": "Terms of Service",
+                    "privacy": "Privacy Policy"
+                  }
+                },
+                "copyright": {
+                  "title": "© GrimClient.eu | All rights reserved.",
+                  "description": "GrimClient is not affiliated with Mojang AB, the company's commercial activities comply with Mojang AB policy."
+                }
+              },
+              "dashboard_navigation": {
+                "title": "Grim Client",
+                "links": {
+                  "home": "My licenses",
+                  "billing": "Billing history",
+                  "settings": "Settings",
+                  "faq": "FAQ (Guide)",
+                  "support": "Support"
+                }
+              },
+              "ban_modal": {
+                "title": "Account suspended",
+                "description": "Your account has been suspended. If you believe this is a mistake, please contact support.",
+                "reason_label": "Reason",
+                "no_reason": "No reason was provided."
+              }
+            }
+          }
+        },
+        "initialLocale": "pl",
+        "ns": [
+          "auth",
+          "common"
+        ],
+        "userConfig": null
+      },
+      "settings": {
+        "id": 1,
+        "documentId": "jfz7bzk106bxs9ckg7h4qj67",
+        "pageTitle": " | Grim Client",
+        "pageDescription": "Uwolnij pełny potencjał swojej Minecraftowej przygody.",
+        "metaKeywords": "grim, minecraft, client, utility, ghost",
+        "discordUrl": "https://discord.gg/grimclient",
+        "shopActive": true,
+        "contactMail": "contact@grimclient.pl",
+        "createdAt": "2025-01-10T22:00:34.104Z",
+        "updatedAt": "2026-10-31T18:01:00.601Z",
+        "publishedAt": "2026-10-31T18:00:59.030Z",
+        "locale": "pl",
+        "hwidDashboardV2Enabled": true,
+        "defaultSeo": null,
+        "notice": {
+          "id": 1,
+          "enabled": true,
+          "text": "Halloweenowa promocja wystartowała! | Grim Client 5.0 już dostępny!",
+          "animated": true,
+          "color1": "#ff9225",
+          "color2": "#f56c10"
+        },
+        "customerNotice": {
+          "id": 3,
+          "enabled": false,
+          "text": "TEST",
+          "animated": true,
+          "color1": "#7b2525",
+          "color2": "#d5c346"
+        }
+      }
+    },
+    "__N_SSP": true
+  },
+  "page": "/register",
+  "query": {},
+  "buildId": "qGwJ2KYIlLj8ghC92z9ja",
+  "isFallback": false,
+  "isExperimentalCompile": false,
+  "gssp": true,
+  "locale": "pl",
+  "locales": [
+    "en",
+    "pl"
+  ],
+  "defaultLocale": "en",
+  "scriptLoader": []
+}

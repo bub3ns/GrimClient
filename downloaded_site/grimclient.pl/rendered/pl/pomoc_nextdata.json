@@ -1,0 +1,257 @@
+{
+  "props": {
+    "pageProps": {
+      "_nextI18Next": {
+        "initialI18nStore": {
+          "pl": {
+            "common": {
+              "date_locale": "pl-PL",
+              "toast": {
+                "error_title": "Błąd"
+              },
+              "timer": {
+                "days": "Dni",
+                "hours": "Godz",
+                "minutes": "Min",
+                "seconds": "Sek"
+              },
+              "cookie_info": {
+                "title": "Informacje o ciasteczkach",
+                "content": "Dbamy o Twoje dane i używamy plików cookie wyłącznie w celu zapewnienia funkcjonalności i komfortu korzystania z serwisu. Używając tej witryny akceptujesz naszą <2>politykę prywatności</2>.",
+                "accept_button": "Zgadzam się"
+              },
+              "navbar": {
+                "logo_name": "GrimClient.eu",
+                "navigation_links": {
+                  "home": "Strona główna",
+                  "purchase": "Zakup",
+                  "showcase": "Funkcje",
+                  "faq": "FAQ"
+                },
+                "account": {
+                  "logged_as": "Zalogowano jako",
+                  "links": {
+                    "dashboard": "Moje licencje",
+                    "settings": "Ustawienia",
+                    "faq": "FAQ",
+                    "billing": "Historia płatności",
+                    "support": "Wsparcie",
+                    "logout": "Wyloguj się"
+                  }
+                },
+                "login_link": "Zaloguj się"
+              },
+              "footer": {
+                "logo_name": "GrimClient.eu",
+                "system_status": "Wszystkie systemy sprawne",
+                "sitemap": {
+                  "title": "Mapa strony",
+                  "links": {
+                    "index": "Strona główna",
+                    "purchase": "Zakup",
+                    "showcase": "Funkcje",
+                    "faq": "Najczęstsze pytania"
+                  }
+                },
+                "social_media": {
+                  "title": "Społeczność",
+                  "links": {
+                    "discord": {
+                      "name": "Discord",
+                      "href": "https://discord.gg/grimclient"
+                    },
+                    "facebook": {
+                      "name": "",
+                      "href": ""
+                    },
+                    "youtube": {
+                      "name": "YouTube",
+                      "href": "https://www.youtube.com/@grim.client/featured"
+                    }
+                  }
+                },
+                "contact": {
+                  "title": "Kontakt",
+                  "links": {
+                    "contact": "contact@grimclient.pl",
+                    "terms": "Regulamin",
+                    "privacy": "Polityka prywatności"
+                  }
+                },
+                "copyright": {
+                  "title": "© GrimClient.eu | All rights reserved.",
+                  "description": "Grimclient nie jest powiązany z Mojang AB, działalność komercyjna firmy jest zgodna z polityką Mojang AB."
+                }
+              },
+              "dashboard_navigation": {
+                "title": "Grim Client",
+                "links": {
+                  "home": "Moje licencje",
+                  "billing": "Historia płatności",
+                  "settings": "Ustawienia",
+                  "faq": "FAQ (Poradnik)",
+                  "support": "Wsparcie"
+                }
+              },
+              "ban_modal": {
+                "title": "Konto zawieszone",
+                "description": "Twoje konto zostało zbanowane. Jeśli uważasz, że to błąd, skontaktuj się z nami.",
+                "reason_label": "Powód",
+                "no_reason": "Nie podano powodu."
+              }
+            }
+          },
+          "en": {
+            "common": {
+              "date_locale": "en-US",
+              "toast": {
+                "error_title": "Error"
+              },
+              "timer": {
+                "days": "Days",
+                "hours": "Hrs",
+                "minutes": "Min",
+                "seconds": "Sec"
+              },
+              "cookie_info": {
+                "title": "Information on cookies",
+                "content": "We care about your data and use cookies solely to ensure functionality and enhance your experience on the site. By using this website, you accept our <2>privacy policy</2>.",
+                "accept_button": "Accept"
+              },
+              "navbar": {
+                "logo_name": "GrimClient.eu",
+                "navigation_links": {
+                  "home": "Home",
+                  "purchase": "Purchase",
+                  "showcase": "Showcase",
+                  "faq": "FAQ"
+                },
+                "account": {
+                  "logged_as": "Logged in as",
+                  "links": {
+                    "dashboard": "My licenses",
+                    "settings": "Settings",
+                    "faq": "FAQ",
+                    "billing": "Billing history",
+                    "support": "Support",
+                    "logout": "Logout"
+                  }
+                },
+                "login_link": "Log in"
+              },
+              "footer": {
+                "logo_name": "GrimClient.eu",
+                "system_status": "All systems operational",
+                "sitemap": {
+                  "title": "Sitemap",
+                  "links": {
+                    "index": "Home",
+                    "purchase": "Purchase",
+                    "showcase": "Showcase",
+                    "faq": "FAQ"
+                  }
+                },
+                "social_media": {
+                  "title": "Social media",
+                  "links": {
+                    "discord": {
+                      "name": "Discord",
+                      "href": "https://discord.gg/grimclient"
+                    },
+                    "facebook": {
+                      "name": "",
+                      "href": ""
+                    },
+                    "youtube": {
+                      "name": "YouTube",
+                      "href": "https://www.youtube.com/@grim.client/featured"
+                    }
+                  }
+                },
+                "contact": {
+                  "title": "Contact",
+                  "links": {
+                    "contact": "contact@grimclient.pl",
+                    "terms": "Terms of Service",
+                    "privacy": "Privacy Policy"
+                  }
+                },
+                "copyright": {
+                  "title": "© GrimClient.eu | All rights reserved.",
+                  "description": "GrimClient is not affiliated with Mojang AB, the company's commercial activities comply with Mojang AB policy."
+                }
+              },
+              "dashboard_navigation": {
+                "title": "Grim Client",
+                "links": {
+                  "home": "My licenses",
+                  "billing": "Billing history",
+                  "settings": "Settings",
+                  "faq": "FAQ (Guide)",
+                  "support": "Support"
+                }
+              },
+              "ban_modal": {
+                "title": "Account suspended",
+                "description": "Your account has been suspended. If you believe this is a mistake, please contact support.",
+                "reason_label": "Reason",
+                "no_reason": "No reason was provided."
+              }
+            }
+          }
+        },
+        "initialLocale": "pl",
+        "ns": [
+          "common"
+        ],
+        "userConfig": null
+      },
+      "settings": {
+        "id": 1,
+        "documentId": "jfz7bzk106bxs9ckg7h4qj67",
+        "pageTitle": " | Grim Client",
+        "pageDescription": "Uwolnij pełny potencjał swojej Minecraftowej przygody.",
+        "metaKeywords": "grim, minecraft, client, utility, ghost",
+        "discordUrl": "https://discord.gg/grimclient",
+        "shopActive": true,
+        "contactMail": "contact@grimclient.pl",
+        "createdAt": "2025-01-10T22:00:34.104Z",
+        "updatedAt": "2026-10-31T18:01:00.601Z",
+        "publishedAt": "2026-10-31T18:00:59.030Z",
+        "locale": "pl",
+        "hwidDashboardV2Enabled": true,
+        "defaultSeo": null,
+        "notice": {
+          "id": 1,
+          "enabled": true,
+          "text": "Halloweenowa promocja wystartowała! | Grim Client 5.0 już dostępny!",
+          "animated": true,
+          "color1": "#ff9225",
+          "color2": "#f56c10"
+        },
+        "customerNotice": {
+          "id": 3,
+          "enabled": false,
+          "text": "TEST",
+          "animated": true,
+          "color1": "#7b2525",
+          "color2": "#d5c346"
+        }
+      }
+    },
+    "__N_SSG": true
+  },
+  "page": "/404",
+  "query": {},
+  "buildId": "qGwJ2KYIlLj8ghC92z9ja",
+  "isFallback": false,
+  "isExperimentalCompile": false,
+  "gsp": true,
+  "locale": "pl",
+  "locales": [
+    "en",
+    "pl"
+  ],
+  "defaultLocale": "en",
+  "scriptLoader": []
+}
